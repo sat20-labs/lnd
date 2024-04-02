@@ -532,6 +532,10 @@ func (c *commitment) toDiskCommit(
 		}
 		copy(h.OnionBlob[:], htlc.OnionBlob)
 
+		// TODO(guggero): Add custom records from HTLC here once we have
+		// the custom records in the HTLC struct (later commits in this
+		// PR).
+
 		if whoseCommit.IsLocal() && htlc.sig != nil {
 			h.Signature = htlc.sig.Serialize()
 		}
@@ -556,6 +560,11 @@ func (c *commitment) toDiskCommit(
 			BlindingPoint: htlc.BlindingPoint,
 		}
 		copy(h.OnionBlob[:], htlc.OnionBlob)
+
+		// TODO(guggero): Add custom records from HTLC here once we have
+		// the custom records in the HTLC struct (later commits in this
+		// PR).
+
 		if whoseCommit.IsLocal() && htlc.sig != nil {
 			h.Signature = htlc.sig.Serialize()
 		}
@@ -653,6 +662,9 @@ func (lc *LightningChannel) diskHtlcToPayDesc(feeRate chainfee.SatPerKWeight,
 		theirPkScript:      theirP2WSH,
 		theirWitnessScript: theirWitnessScript,
 		BlindingPoint:      htlc.BlindingPoint,
+		// TODO(guggero): Add custom records from HTLC here once we have
+		// the custom records in the HTLC struct (later commits in this
+		// PR).
 	}, nil
 }
 
@@ -5725,6 +5737,9 @@ func (lc *LightningChannel) htlcAddDescriptor(htlc *lnwire.UpdateAddHTLC,
 		OnionBlob:      htlc.OnionBlob[:],
 		OpenCircuitKey: openKey,
 		BlindingPoint:  htlc.BlindingPoint,
+		// TODO(guggero): Add custom records from HTLC here once we have
+		// the custom records in the HTLC struct (later commits in this
+		// PR).
 	}
 }
 
@@ -5783,6 +5798,9 @@ func (lc *LightningChannel) ReceiveHTLC(htlc *lnwire.UpdateAddHTLC) (uint64, err
 		HtlcIndex:     lc.remoteUpdateLog.htlcCounter,
 		OnionBlob:     htlc.OnionBlob[:],
 		BlindingPoint: htlc.BlindingPoint,
+		// TODO(guggero): Add custom records from HTLC here once we have
+		// the custom records in the HTLC struct (later commits in this
+		// PR).
 	}
 
 	localACKedIndex := lc.remoteCommitChain.tail().ourMessageIndex
