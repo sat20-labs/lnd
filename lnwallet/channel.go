@@ -8097,7 +8097,7 @@ func NewAnchorResolution(chanState *channeldb.OpenChannel,
 		WitnessScript: anchorWitnessScript,
 		Output: &wire.TxOut{
 			PkScript: localAnchor.PkScript(),
-			Value:    int64(anchorSize),
+			Value:    int64(AnchorSize),
 		},
 		HashType: sweepSigHash(chanState.ChanType),
 	}
@@ -8109,7 +8109,7 @@ func NewAnchorResolution(chanState *channeldb.OpenChannel,
 
 		//nolint:lll
 		signDesc.PrevOutputFetcher = txscript.NewCannedPrevOutputFetcher(
-			localAnchor.PkScript(), int64(anchorSize),
+			localAnchor.PkScript(), int64(AnchorSize),
 		)
 
 		// For anchor outputs with taproot channels, the key desc is
@@ -8652,7 +8652,7 @@ func (lc *LightningChannel) LocalBalanceDust() bool {
 	// regain the stats allocated to the anchor outputs with the co-op
 	// close transaction.
 	if chanState.ChanType.HasAnchors() && chanState.IsInitiator {
-		localBalance += 2 * anchorSize
+		localBalance += 2 * AnchorSize
 	}
 
 	return localBalance <= chanState.LocalChanCfg.DustLimit
@@ -8672,7 +8672,7 @@ func (lc *LightningChannel) RemoteBalanceDust() bool {
 	// regain the stats allocated to the anchor outputs with the co-op
 	// close transaction.
 	if chanState.ChanType.HasAnchors() && !chanState.IsInitiator {
-		remoteBalance += 2 * anchorSize
+		remoteBalance += 2 * AnchorSize
 	}
 
 	return remoteBalance <= chanState.RemoteChanCfg.DustLimit
