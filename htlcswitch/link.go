@@ -30,6 +30,7 @@ import (
 	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
 	"github.com/lightningnetwork/lnd/lnwire"
 	"github.com/lightningnetwork/lnd/queue"
+	"github.com/lightningnetwork/lnd/record"
 	"github.com/lightningnetwork/lnd/ticker"
 )
 
@@ -3630,7 +3631,7 @@ func (l *channelLink) processRemoteAdds(fwdPkg *channeldb.FwdPkg,
 				}
 
 				// Otherwise, it was already processed, we can
-				// can collect it and continue.
+				// collect it and continue.
 				addMsg := &lnwire.UpdateAddHTLC{
 					Expiry:        fwdInfo.OutgoingCTLV,
 					Amount:        fwdInfo.AmountToForward,
@@ -3663,6 +3664,9 @@ func (l *channelLink) processRemoteAdds(fwdPkg *channeldb.FwdPkg,
 					outgoingTimeout: fwdInfo.OutgoingCTLV,
 					customRecords:   pld.CustomRecords(),
 					inboundFee:      inboundFee,
+					incomingCustomRecords: record.CustomSet(
+						pd.CustomRecords,
+					),
 				}
 				switchPackets = append(
 					switchPackets, updatePacket,
@@ -3731,6 +3735,9 @@ func (l *channelLink) processRemoteAdds(fwdPkg *channeldb.FwdPkg,
 					outgoingTimeout: fwdInfo.OutgoingCTLV,
 					customRecords:   pld.CustomRecords(),
 					inboundFee:      inboundFee,
+					incomingCustomRecords: record.CustomSet(
+						pd.CustomRecords,
+					),
 				}
 
 				fwdPkg.FwdFilter.Set(idx)
