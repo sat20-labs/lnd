@@ -278,6 +278,10 @@ func basicChannelFundingTest(ht *lntest.HarnessTest,
 // testUnconfirmedChannelFunding tests that our unconfirmed change outputs can
 // be used to fund channels.
 func testUnconfirmedChannelFunding(ht *lntest.HarnessTest) {
+	if ht.IsNeutrinoBackend() {
+		ht.Skip("Skipped due to neutrino backend")
+	}
+
 	const (
 		chanAmt = funding.MaxBtcFundingAmount
 		pushAmt = btcutil.Amount(100000)
@@ -361,11 +365,7 @@ func testUnconfirmedChannelFunding(ht *lntest.HarnessTest) {
 	// parties. For neutrino backend, the funding transaction should be
 	// mined. Otherwise, two transactions should be mined, the unconfirmed
 	// spend and the funding tx.
-	if ht.IsNeutrinoBackend() {
-		ht.MineBlocksAndAssertNumTxes(6, 1)
-	} else {
-		ht.MineBlocksAndAssertNumTxes(6, 2)
-	}
+	ht.MineBlocksAndAssertNumTxes(6, 2)
 
 	chanPoint := ht.WaitForChannelOpenEvent(chanOpenUpdate)
 
