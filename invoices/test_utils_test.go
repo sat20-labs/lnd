@@ -122,11 +122,8 @@ var (
 	testMessageSigner = zpay32.MessageSigner{
 		SignCompact: func(msg []byte) ([]byte, error) {
 			hash := chainhash.HashB(msg)
-			sig, err := ecdsa.SignCompact(testPrivKey, hash, true)
-			if err != nil {
-				return nil, fmt.Errorf("can't sign the "+
-					"message: %v", err)
-			}
+			sig := ecdsa.SignCompact(testPrivKey, hash, true)
+
 			return sig, nil
 		},
 	}

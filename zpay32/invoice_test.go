@@ -104,11 +104,8 @@ var (
 	testMessageSigner = MessageSigner{
 		SignCompact: func(msg []byte) ([]byte, error) {
 			hash := chainhash.HashB(msg)
-			sig, err := ecdsa.SignCompact(testPrivKey, hash, true)
-			if err != nil {
-				return nil, fmt.Errorf("can't sign the "+
-					"message: %v", err)
-			}
+			sig := ecdsa.SignCompact(testPrivKey, hash, true)
+
 			return sig, nil
 		},
 	}
@@ -1042,7 +1039,7 @@ func TestInvoiceChecksumMalleability(t *testing.T) {
 	msgSigner := MessageSigner{
 		SignCompact: func(msg []byte) ([]byte, error) {
 			hash := chainhash.HashB(msg)
-			return ecdsa.SignCompact(privKey, hash, true)
+			return ecdsa.SignCompact(privKey, hash, true), nil
 		},
 	}
 	opts := []func(*Invoice){Description("test")}
