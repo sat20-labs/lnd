@@ -44,7 +44,9 @@ cmd/cmd
 *.key
 *.hex
 
+cmd/lnd/lnd
 cmd/lncli/lncli
+tlv/internal/gen/gen
 
 # Files from mobile build.
 mobile/build
