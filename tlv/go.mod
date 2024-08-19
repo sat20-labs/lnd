@@ -1,5 +1,8 @@
 module github.com/lightningnetwork/lnd/tlv
 
+// custom versions that add testnet4 support
+replace github.com/btcsuite/btcd => github.com/impa10r/btcd v0.0.0-20240803152009-0816848dca62
+
 require (
 	github.com/btcsuite/btcd v0.24.1-0.20240301210420-1a2b599bf1af
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2

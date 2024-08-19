@@ -1,18 +1,21 @@
 module github.com/lightningnetwork/lnd/healthcheck
 
+// custom versions that add testnet4 support
+replace github.com/btcsuite/btcd => github.com/impa10r/btcd v0.0.0-20240803152009-0816848dca62
+
 go 1.19
 
 require (
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/lightningnetwork/lnd/ticker v1.1.0
 	github.com/lightningnetwork/lnd/tor v1.0.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	golang.org/x/sys v0.13.0
 )
 
 require (
-	github.com/btcsuite/btcd v0.23.2 // indirect
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
+	github.com/btcsuite/btcd v0.23.5-0.20231215221805-96c9fd8078fd // indirect
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/miekg/dns v1.1.43 // indirect
