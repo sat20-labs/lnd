@@ -11,7 +11,7 @@ import (
 	"io"
 	"net"
 	"os"
-	"os/user"
+	//"os/user"
 	"path/filepath"
 	"reflect"
 	"regexp"
@@ -546,6 +546,15 @@ type GRPCConfig struct {
 	ClientAllowPingWithoutStream bool `long:"client-allow-ping-without-stream" description:"If true, the server allows keepalive pings from the client even when there are no active gRPC streams. This might be useful to keep the underlying HTTP/2 connection open for future requests."`
 }
 
+func GetBaseDir() string {
+	// execPath, err := os.Executable()
+	// if err != nil {
+	// 	return "./."
+	// }
+	// return filepath.Dir(execPath)
+	return "/data1/github/lnd"
+}
+
 func GetDefaultDir(app string) string {
 	// 正式代码
 	// execPath, err := os.Executable()
@@ -555,7 +564,7 @@ func GetDefaultDir(app string) string {
 	// return filepath.Dir(execPath) + "/." + app
 
 	// 用于测试
-	return "/data1/github/lnd/." + app
+	return GetBaseDir()+ "/." + app
 }
 
 func GetLndDir() string {
@@ -1799,13 +1808,15 @@ func CleanAndExpandPath(path string) string {
 
 	// Expand initial ~ to OS specific home directory.
 	if strings.HasPrefix(path, "~") {
-		var homeDir string
-		u, err := user.Current()
-		if err == nil {
-			homeDir = u.HomeDir
-		} else {
-			homeDir = os.Getenv("HOME")
-		}
+		// var homeDir string
+		// u, err := user.Current()
+		// if err == nil {
+		// 	homeDir = u.HomeDir
+		// } else {
+		// 	homeDir = os.Getenv("HOME")
+		// }
+
+		homeDir := GetBaseDir()
 
 		path = strings.Replace(path, "~", homeDir, 1)
 	}
