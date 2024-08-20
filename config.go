@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
+	//"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/lightninglabs/neutrino"
@@ -255,7 +255,8 @@ var (
 	//   C:\Users\<username>\AppData\Local\Lnd on Windows
 	//   ~/.lnd on Linux
 	//   ~/Library/Application Support/Lnd on MacOS
-	DefaultLndDir = btcutil.AppDataDir("lnd", false)
+	//DefaultLndDir = btcutil.AppDataDir("lnd", false)
+	DefaultLndDir = GetLndDir()
 
 	// DefaultConfigFile is the default full path of lnd's configuration
 	// file.
@@ -270,10 +271,10 @@ var (
 	defaultTLSKeyPath     = filepath.Join(DefaultLndDir, defaultTLSKeyFilename)
 	defaultLetsEncryptDir = filepath.Join(DefaultLndDir, defaultLetsEncryptDirname)
 
-	defaultBtcdDir         = btcutil.AppDataDir(btcdBackendName, false)
+	defaultBtcdDir         = GetDefaultDir(btcdBackendName)// btcutil.AppDataDir(btcdBackendName, false)
 	defaultBtcdRPCCertFile = filepath.Join(defaultBtcdDir, "rpc.cert")
 
-	defaultBitcoindDir = btcutil.AppDataDir(BitcoinChainName, false)
+	defaultBitcoindDir = GetDefaultDir(BitcoinChainName)//btcutil.AppDataDir(BitcoinChainName, false)
 
 	defaultTorSOCKS   = net.JoinHostPort("localhost", strconv.Itoa(defaultTorSOCKSPort))
 	defaultTorDNS     = net.JoinHostPort(defaultTorDNSHost, strconv.Itoa(defaultTorDNSPort))
@@ -545,10 +546,26 @@ type GRPCConfig struct {
 	ClientAllowPingWithoutStream bool `long:"client-allow-ping-without-stream" description:"If true, the server allows keepalive pings from the client even when there are no active gRPC streams. This might be useful to keep the underlying HTTP/2 connection open for future requests."`
 }
 
+func GetDefaultDir(app string) string {
+	// 正式代码
+	// execPath, err := os.Executable()
+	// if err != nil {
+	// 	return "./." + app
+	// }
+	// return filepath.Dir(execPath) + "/." + app
+
+	// 用于测试
+	return "/data1/github/lnd/." + app
+}
+
+func GetLndDir() string {
+	return GetDefaultDir("lnd")
+}
+
 // DefaultConfig returns all default values for the Config struct.
 //
 //nolint:lll
-func DefaultConfig() Config {
+func DefaultConfig() Config {	
 	return Config{
 		LndDir:            DefaultLndDir,
 		ConfigFile:        DefaultConfigFile,
