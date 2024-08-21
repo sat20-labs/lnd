@@ -64,5 +64,5 @@ var BitcoinRegTestNetParams = BitcoinNetParams{
 // IsTestnet tests if the givern params correspond to a testnet
 // parameter configuration.
 func IsTestnet(params *BitcoinNetParams) bool {
-	return params.Params.Net == bitcoinWire.TestNet3
+	return params.Params.Net == bitcoinWire.TestNet3 || params.Params.Net == bitcoinWire.TestNet4
 }
