@@ -2165,7 +2165,7 @@ func extractBitcoindRPCParams(networkName, bitcoindDataDir, bitcoindConfigPath,
 	switch networkName {
 	case "mainnet":
 		chainDir = ""
-	case "regtest", "testnet3", "signet":
+	case "regtest", "testnet3", "testnet4", "signet":
 		chainDir = networkName
 	default:
 		return "", "", "", "", fmt.Errorf("unexpected networkname %v", networkName)

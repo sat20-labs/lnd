@@ -1,5 +1,5 @@
-PKG := github.com/lightningnetwork/lnd
-ESCPKG := github.com\/lightningnetwork\/lnd
+PKG := github.com/sat20-labs/lnd
+ESCPKG := github.com\/sat20-labs\/lnd
 MOBILE_PKG := $(PKG)/mobile
 TOOLS_DIR := tools
 
