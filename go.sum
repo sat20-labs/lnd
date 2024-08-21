@@ -837,8 +837,8 @@ github.com/tinyverse-web3/btcd/btcutil/psbt v1.1.9-testnet4 h1:Z4VUqFMXrt6Y/A/33
 github.com/tinyverse-web3/btcd/btcutil/psbt v1.1.9-testnet4/go.mod h1:qa4Mi2Lj/7oKM+KBoY2p+kJYBi14U6R7UBi/MbpvqRU=
 github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0 h1:0uC75zMX330R5DKjl41SLSGcRBmtcpmVRa4dLr3/d1s=
 github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0/go.mod h1:/JpujCNgFCdeNNN8yYIEQ2CpHuEXK4XJvWSeSl0RSFY=
-github.com/tinyverse-web3/btcwallet v0.16.12 h1:0uD8EBWTvSwyvjfYWRkiMZcrPQ5seX4UxNjTWS8RCEg=
-github.com/tinyverse-web3/btcwallet v0.16.12/go.mod h1:mwhBhrixw48GuK9+DJZ4Qohyk6UYCG3Dbvgat+ZQHPs=
+github.com/tinyverse-web3/btcwallet v0.16.13 h1:cmJyMaz5w1f05E2dTlI9Eq77NnCxcowq4si4IfdbsiY=
+github.com/tinyverse-web3/btcwallet v0.16.13/go.mod h1:zHXik6t6j+qM93unTOQCAzRYQohrXaXII93rSnob4B0=
 github.com/tinyverse-web3/btcwallet/wallet/txauthor v1.3.4 h1:wx4S/ON9dHp0UBqrkKp7lYlPdMIp7VtSGfMFmFqeaGA=
 github.com/tinyverse-web3/btcwallet/wallet/txauthor v1.3.4/go.mod h1:4xNcynJDGfzvLAN7a0f6l7yHhq2qT2r1RsLcN7uIeRE=
 github.com/tinyverse-web3/btcwallet/wallet/txrules v1.2.1 h1:/X7wLfI28fHv+mwBV3PXKxGvvaX1GkDcjYq35zF1vtk=

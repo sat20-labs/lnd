@@ -57,7 +57,7 @@ require (
 	github.com/tinyverse-web3/btcd/btcutil v1.1.6
 	github.com/tinyverse-web3/btcd/btcutil/psbt v1.1.9-testnet4
 	github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0
-	github.com/tinyverse-web3/btcwallet v0.16.12
+	github.com/tinyverse-web3/btcwallet v0.16.13
 	github.com/tinyverse-web3/btcwallet/wallet/txauthor v1.3.4
 	github.com/tinyverse-web3/btcwallet/wallet/txrules v1.2.1
 	github.com/tinyverse-web3/btcwallet/walletdb v1.4.2
