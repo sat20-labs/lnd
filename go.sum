@@ -827,8 +827,8 @@ github.com/timakin/bodyclose v0.0.0-20230421092635-574207250966 h1:quvGphlmUVU+n
 github.com/timakin/bodyclose v0.0.0-20230421092635-574207250966/go.mod h1:27bSVNWSBOHm+qRp1T9qzaIpsWEP6TbUnei/43HK+PQ=
 github.com/timonwong/loggercheck v0.9.4 h1:HKKhqrjcVj8sxL7K77beXh0adEm6DLjV/QOGeMXEVi4=
 github.com/timonwong/loggercheck v0.9.4/go.mod h1:caz4zlPcgvpEkXgVnAJGowHAMW2NwHaNlpS8xDbVhTg=
-github.com/tinyverse-web3/btcd v0.24.3 h1:qasx5ezCk3gYgAdYQ/t9CHSq9vgYiiCdU5zMWzMnncU=
-github.com/tinyverse-web3/btcd v0.24.3/go.mod h1:cEn9nstLBByBtt4UuNpzTdJCq3aI5ntWx9yJnLdOmQk=
+github.com/tinyverse-web3/btcd v0.24.4 h1:lnPkJBXMfqat89bPKMgOaIx4pPwPEJ7S9urUJxAeORM=
+github.com/tinyverse-web3/btcd v0.24.4/go.mod h1:cEn9nstLBByBtt4UuNpzTdJCq3aI5ntWx9yJnLdOmQk=
 github.com/tinyverse-web3/btcd/btcec/v2 v2.3.4 h1:Br+6N19q/ikl1L2X94Hf++Zw3YNe+4TKNyqPekgS1sg=
 github.com/tinyverse-web3/btcd/btcec/v2 v2.3.4/go.mod h1:/S/gJtj2TIX7ay22SuBQxnEJxsLS0NeLGtkb54gvHbA=
 github.com/tinyverse-web3/btcd/btcutil v1.1.6 h1:j35tTeB3U78AjL40/yRk8poBkFVfqWsUU+yvrX1LnOw=
@@ -837,8 +837,8 @@ github.com/tinyverse-web3/btcd/btcutil/psbt v1.1.9-testnet4 h1:Z4VUqFMXrt6Y/A/33
 github.com/tinyverse-web3/btcd/btcutil/psbt v1.1.9-testnet4/go.mod h1:qa4Mi2Lj/7oKM+KBoY2p+kJYBi14U6R7UBi/MbpvqRU=
 github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0 h1:0uC75zMX330R5DKjl41SLSGcRBmtcpmVRa4dLr3/d1s=
 github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0/go.mod h1:/JpujCNgFCdeNNN8yYIEQ2CpHuEXK4XJvWSeSl0RSFY=
-github.com/tinyverse-web3/btcwallet v0.16.13 h1:cmJyMaz5w1f05E2dTlI9Eq77NnCxcowq4si4IfdbsiY=
-github.com/tinyverse-web3/btcwallet v0.16.13/go.mod h1:zHXik6t6j+qM93unTOQCAzRYQohrXaXII93rSnob4B0=
+github.com/tinyverse-web3/btcwallet v0.16.14 h1:NYLcSS+bem6P11S8lLFW6Jd+GaPBQqTEmDNOR+9+K4g=
+github.com/tinyverse-web3/btcwallet v0.16.14/go.mod h1:4uSGY7iB5b4F7uQQOhislXh/1PzlpzBluZMA2cmSzIk=
 github.com/tinyverse-web3/btcwallet/wallet/txauthor v1.3.4 h1:wx4S/ON9dHp0UBqrkKp7lYlPdMIp7VtSGfMFmFqeaGA=
 github.com/tinyverse-web3/btcwallet/wallet/txauthor v1.3.4/go.mod h1:4xNcynJDGfzvLAN7a0f6l7yHhq2qT2r1RsLcN7uIeRE=
 github.com/tinyverse-web3/btcwallet/wallet/txrules v1.2.1 h1:/X7wLfI28fHv+mwBV3PXKxGvvaX1GkDcjYq35zF1vtk=

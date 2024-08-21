@@ -52,12 +52,12 @@ require (
 	github.com/prometheus/client_golang v1.20.0
 	github.com/rinchsan/gosimports v0.3.8
 	github.com/stretchr/testify v1.9.0
-	github.com/tinyverse-web3/btcd v0.24.3
+	github.com/tinyverse-web3/btcd v0.24.4
 	github.com/tinyverse-web3/btcd/btcec/v2 v2.3.4
 	github.com/tinyverse-web3/btcd/btcutil v1.1.6
 	github.com/tinyverse-web3/btcd/btcutil/psbt v1.1.9-testnet4
 	github.com/tinyverse-web3/btcd/chaincfg/chainhash v1.1.0
-	github.com/tinyverse-web3/btcwallet v0.16.13
+	github.com/tinyverse-web3/btcwallet v0.16.14
 	github.com/tinyverse-web3/btcwallet/wallet/txauthor v1.3.4
 	github.com/tinyverse-web3/btcwallet/wallet/txrules v1.2.1
 	github.com/tinyverse-web3/btcwallet/walletdb v1.4.2
