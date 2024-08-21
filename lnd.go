@@ -18,7 +18,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	proxy "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/build"
@@ -36,6 +35,7 @@ import (
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/sat20-labs/lnd/walletunlocker"
 	"github.com/sat20-labs/lnd/watchtower"
+	"github.com/tinyverse-web3/btcd/btcutil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"

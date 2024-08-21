@@ -9,16 +9,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/txsort"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/sat20-labs/lnd/build"
@@ -33,6 +23,16 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/shachain"
+	"github.com/tinyverse-web3/btcd/blockchain"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr/musig2"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/btcutil/txsort"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/mempool"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

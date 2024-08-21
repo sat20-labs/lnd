@@ -5,13 +5,13 @@ import (
 	"errors"
 	fmt "fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 var (

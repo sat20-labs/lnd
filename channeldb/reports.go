@@ -5,11 +5,11 @@ import (
 	"errors"
 	"io"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

@@ -3,9 +3,9 @@ package chainfee
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/tinyverse-web3/btcd/blockchain"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

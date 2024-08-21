@@ -5,7 +5,7 @@ package sqlbase
 import (
 	"database/sql"
 
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 // readWriteCursor holds a reference to the cursors bucket, the value

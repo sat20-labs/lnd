@@ -3,7 +3,7 @@ package lnwire
 import (
 	"io"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // ClosingSigned is sent by both parties to a channel once the channel is clear

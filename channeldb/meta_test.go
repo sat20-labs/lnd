@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 // applyMigration is a helper test function that encapsulates the general steps

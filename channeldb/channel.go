@@ -13,12 +13,6 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/fn"
 	"github.com/sat20-labs/lnd/htlcswitch/hop"
@@ -29,6 +23,12 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/shachain"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr/musig2"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

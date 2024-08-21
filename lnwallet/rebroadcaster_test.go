@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/lnutils"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 type mockRebroadcaster struct {

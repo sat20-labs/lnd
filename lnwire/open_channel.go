@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // FundingFlag represents the possible bit mask values for the ChannelFlags

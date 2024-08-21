@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/watchtower/blob"
 	"github.com/sat20-labs/lnd/watchtower/wtwire"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 var (

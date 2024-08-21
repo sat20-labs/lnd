@@ -10,9 +10,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
@@ -25,6 +22,9 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

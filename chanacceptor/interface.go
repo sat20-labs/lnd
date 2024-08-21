@@ -3,9 +3,9 @@ package chanacceptor
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 var (

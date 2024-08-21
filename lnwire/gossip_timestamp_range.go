@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // GossipTimestampRange is a message that allows the sender to restrict the set

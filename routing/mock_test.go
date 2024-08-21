@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
@@ -16,6 +14,8 @@ import (
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/routing/shards"
 	"github.com/stretchr/testify/mock"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 type mockPaymentAttemptDispatcherOld struct {

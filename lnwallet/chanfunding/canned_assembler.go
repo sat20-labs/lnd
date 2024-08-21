@@ -3,11 +3,11 @@ package chanfunding
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/keychain"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // NewShimIntent creates a new ShimIntent. This is only used for testing.

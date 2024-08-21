@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/btcsuite/btcwallet/snacl"
+	"github.com/tinyverse-web3/btcwallet/snacl"
 	"gopkg.in/macaroon.v2"
 )
 

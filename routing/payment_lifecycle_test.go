@@ -6,7 +6,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/htlcswitch"
@@ -18,6 +17,7 @@ import (
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // errDummy is used by the mockers to return a dummy error.

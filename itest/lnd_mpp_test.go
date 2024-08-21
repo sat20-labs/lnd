@@ -3,7 +3,6 @@ package itest
 import (
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
@@ -12,6 +11,7 @@ import (
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testSendToRouteMultiPath tests that we are able to successfully route a

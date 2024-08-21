@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // harness decodes the passed data, re-encodes it, and verifies that the

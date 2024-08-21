@@ -3,10 +3,10 @@ package chanbackup
 import (
 	"net"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // ChannelRestorer is an interface that allows the Recover method to map the

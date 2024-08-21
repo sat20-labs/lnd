@@ -6,11 +6,11 @@ import (
 	"io"
 	"math"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

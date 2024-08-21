@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/btcsuite/btcd/wire"
-	base "github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chanfunding"
+	"github.com/tinyverse-web3/btcd/wire"
+	base "github.com/tinyverse-web3/btcwallet/wallet"
+	"github.com/tinyverse-web3/btcwallet/wtxmgr"
 )
 
 const (

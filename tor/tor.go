@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/btcsuite/btcd/connmgr"
 	"github.com/miekg/dns"
+	"github.com/tinyverse-web3/btcd/connmgr"
 	"golang.org/x/net/proxy"
 )
 

@@ -3,13 +3,13 @@ package wtclient
 import (
 	"net"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/sat20-labs/lnd/watchtower/blob"
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/sat20-labs/lnd/watchtower/wtserver"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // DB abstracts the required database operations required by the watchtower

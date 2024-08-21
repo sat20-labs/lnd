@@ -355,7 +355,7 @@ bitcoind:
 On FreeBSD, use gmake instead of make.
 
 In order to be able to utilize the latest Taproot features, [`btcd` version
-`v0.23.5`](https://github.com/btcsuite/btcd/releases/tag/v0.23.5) MUST be used.
+`v0.23.5`](https://github.com/tinyverse-web3/btcd/releases/tag/v0.23.5) MUST be used.
 
 To install btcd, run the following commands:
 
@@ -365,7 +365,7 @@ Install **btcd**:
 ```
 
 Alternatively, you can install [`btcd` directly from its
-repo](https://github.com/btcsuite/btcd).
+repo](https://github.com/tinyverse-web3/btcd).
 
 ### Starting btcd
 
@@ -582,7 +582,7 @@ of your `sendpayment` commands.
 
 There are currently two primary ways to run `lnd`: one requires a local `btcd`
 instance with the RPC service exposed, and the other uses a fully integrated
-light client powered by [neutrino](https://github.com/lightninglabs/neutrino).
+light client powered by [neutrino](https://github.com/tinyverse-web3/neutrino).
 
 For testing scenarios like integration tests where wallet security is not
 important, the `itest/lnd-itest` binary can be used which uses very weak

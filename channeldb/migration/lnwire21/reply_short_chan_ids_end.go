@@ -3,7 +3,7 @@ package lnwire
 import (
 	"io"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // ReplyShortChanIDsEnd is a message that marks the end of a streaming message

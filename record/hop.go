@@ -1,8 +1,8 @@
 package record
 
 import (
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 const (

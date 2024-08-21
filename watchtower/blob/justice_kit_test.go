@@ -7,15 +7,15 @@ import (
 	"io"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const csvDelay = uint32(144)

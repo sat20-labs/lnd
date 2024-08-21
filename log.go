@@ -1,9 +1,7 @@
 package lnd
 
 import (
-	"github.com/btcsuite/btcd/connmgr"
 	"github.com/btcsuite/btclog"
-	"github.com/lightninglabs/neutrino"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/build"
@@ -50,6 +48,8 @@ import (
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/sat20-labs/lnd/watchtower"
 	"github.com/sat20-labs/lnd/watchtower/wtclient"
+	"github.com/tinyverse-web3/btcd/connmgr"
+	"github.com/tinyverse-web3/neutrino"
 )
 
 // replaceableLogger is a thin wrapper around a logger that is used so the

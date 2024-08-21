@@ -3,10 +3,10 @@ package contractcourt
 import (
 	"math"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/input"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // htlcLeaseResolver is a struct that houses the lease specific HTLC resolution

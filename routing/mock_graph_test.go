@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // createPubkey return a new test pubkey.

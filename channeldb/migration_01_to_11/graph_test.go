@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
 )
 
 var (

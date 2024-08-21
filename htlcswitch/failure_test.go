@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tlv"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // TestLongFailureMessage tests that longer failure messages can be interpreted

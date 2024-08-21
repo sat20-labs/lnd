@@ -17,10 +17,6 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/build"
@@ -40,6 +36,10 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/ticker"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

@@ -6,17 +6,17 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/fn"
 	"github.com/sat20-labs/lnd/queue"
+	"github.com/tinyverse-web3/btcd/btcjson"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/chain"
 )
 
 const (

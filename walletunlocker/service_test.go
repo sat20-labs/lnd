@@ -9,10 +9,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/aezeed"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/kvdb"
@@ -22,6 +18,10 @@ import (
 	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/sat20-labs/lnd/walletunlocker"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcwallet/snacl"
+	"github.com/tinyverse-web3/btcwallet/waddrmgr"
+	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 var (

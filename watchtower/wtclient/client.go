@@ -10,7 +10,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btclog"
 	"github.com/sat20-labs/lnd/build"
 	"github.com/sat20-labs/lnd/channeldb"
@@ -21,6 +20,7 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/sat20-labs/lnd/watchtower/wtserver"
 	"github.com/sat20-labs/lnd/watchtower/wtwire"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 const (

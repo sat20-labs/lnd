@@ -3,8 +3,6 @@ package itest
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/invoicesrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
@@ -13,6 +11,8 @@ import (
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // testCoopCloseWithHtlcs tests whether we can successfully issue a coop close

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
 	"github.com/sat20-labs/lnd/build"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/fn"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

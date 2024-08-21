@@ -11,8 +11,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chanbackup"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -21,6 +19,8 @@ import (
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 type (

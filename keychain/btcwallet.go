@@ -4,14 +4,14 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcwallet/waddrmgr"
+	"github.com/tinyverse-web3/btcwallet/wallet"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

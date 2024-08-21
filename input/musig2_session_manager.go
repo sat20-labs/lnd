@@ -4,12 +4,12 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnutils"
 	"github.com/sat20-labs/lnd/multimutex"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr/musig2"
 )
 
 // MuSig2State is a struct that holds on to the internal signing session state

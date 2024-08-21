@@ -12,11 +12,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/sat20-labs/lnd/buffer"
@@ -49,6 +44,11 @@ import (
 	"github.com/sat20-labs/lnd/ticker"
 	"github.com/sat20-labs/lnd/tlv"
 	"github.com/sat20-labs/lnd/watchtower/wtclient"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/connmgr"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

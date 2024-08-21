@@ -6,8 +6,8 @@ package lntest
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/sat20-labs/lnd/lntest/node"
+	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // NeutrinoBackendConfig is an implementation of the BackendConfig interface

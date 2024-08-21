@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 func fetchBucket(t *testing.T, bucket walletdb.ReadBucket) map[string]string {

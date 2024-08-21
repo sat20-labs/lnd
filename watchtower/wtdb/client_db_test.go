@@ -7,7 +7,6 @@ import (
 	"net"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/watchtower/blob"
@@ -15,6 +14,7 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 const blobType = blob.TypeAltruistCommit

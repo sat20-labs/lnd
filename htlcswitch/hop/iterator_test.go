@@ -6,13 +6,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/davecgh/go-spew/spew"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/record"
 	"github.com/sat20-labs/lnd/tlv"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // TestSphinxHopIteratorForwardingInstructions tests that we're able to

@@ -8,8 +8,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
@@ -19,6 +17,8 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/wtmock"
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 type mockPunisher struct {

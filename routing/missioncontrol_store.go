@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

@@ -12,13 +12,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil/bech32"
 	"github.com/miekg/dns"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/lnutils"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tor"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil/bech32"
 )
 
 func init() {

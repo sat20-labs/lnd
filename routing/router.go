@@ -11,8 +11,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-errors/errors"
 	sphinx "github.com/lightningnetwork/lightning-onion"
@@ -30,6 +28,8 @@ import (
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/routing/shards"
 	"github.com/sat20-labs/lnd/zpay32"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

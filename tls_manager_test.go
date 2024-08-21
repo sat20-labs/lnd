@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/cert"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/sat20-labs/lnd/lntest/channels"
 	"github.com/sat20-labs/lnd/lntest/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 const (

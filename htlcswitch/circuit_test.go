@@ -6,8 +6,6 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/htlcswitch"
@@ -15,6 +13,8 @@ import (
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 var (

@@ -197,8 +197,8 @@ func IsOutdated(cert *x509.Certificate, tlsExtraIPs,
 // desired hostnames for the service. For production/public use, consider a
 // real PKI.
 //
-// This function is adapted from https://github.com/btcsuite/btcd and
-// https://github.com/btcsuite/btcd/btcutil
+// This function is adapted from https://github.com/tinyverse-web3/btcd and
+// https://github.com/tinyverse-web3/btcd/btcutil
 func GenCertPair(org string, tlsExtraIPs, tlsExtraDomains []string,
 	tlsDisableAutofill bool, certValidity time.Duration) (
 	[]byte, []byte, error) {

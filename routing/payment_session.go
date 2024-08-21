@@ -3,7 +3,6 @@ package routing
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btclog"
 	"github.com/sat20-labs/lnd/build"
 	"github.com/sat20-labs/lnd/channeldb"
@@ -12,6 +11,7 @@ import (
 	"github.com/sat20-labs/lnd/lnutils"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // BlockPadding is used to increment the finalCltvDelta value for the last hop

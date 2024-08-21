@@ -11,12 +11,6 @@ import (
 	"sort"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/invoices"
@@ -28,6 +22,12 @@ import (
 	"github.com/sat20-labs/lnd/routing/blindedpath"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/zpay32"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

@@ -3,14 +3,14 @@ package input
 import (
 	"crypto/sha256"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/stretchr/testify/mock"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr"
+	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr/musig2"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // MockInput implements the `Input` interface and is used by other packages for

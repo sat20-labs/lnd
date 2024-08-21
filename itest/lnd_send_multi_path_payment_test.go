@@ -3,11 +3,11 @@ package itest
 import (
 	"encoding/hex"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testSendMultiPathPayment tests that we are able to successfully route a

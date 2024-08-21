@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 // ErrInsufficientFunds is a type matching the error interface which is

@@ -4,7 +4,7 @@
 package neutrinorpc
 
 import (
-	"github.com/lightninglabs/neutrino"
+	"github.com/tinyverse-web3/neutrino"
 )
 
 // Config is the primary configuration struct for the neutrino RPC server. It

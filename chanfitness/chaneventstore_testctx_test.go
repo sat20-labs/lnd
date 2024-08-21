@@ -4,9 +4,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channelnotifier"
 	"github.com/sat20-labs/lnd/clock"
@@ -15,6 +12,9 @@ import (
 	"github.com/sat20-labs/lnd/subscribe"
 	"github.com/sat20-labs/lnd/ticker"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // timeout is the amount of time we allow our blocking test calls.

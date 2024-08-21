@@ -8,10 +8,10 @@ import (
 	"encoding/hex"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

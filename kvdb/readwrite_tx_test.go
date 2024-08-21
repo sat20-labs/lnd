@@ -3,8 +3,8 @@ package kvdb
 import (
 	"testing"
 
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 func testTxManualCommit(t *testing.T, db walletdb.DB) {

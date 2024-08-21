@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/clock"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 type eventType int

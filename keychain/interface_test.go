@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb" // Required in order to create the default database.
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcwallet/snacl"
+	"github.com/tinyverse-web3/btcwallet/waddrmgr"
+	"github.com/tinyverse-web3/btcwallet/wallet"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
+	_ "github.com/tinyverse-web3/btcwallet/walletdb/bdb" // Required in order to create the default database.
 )
 
 var (

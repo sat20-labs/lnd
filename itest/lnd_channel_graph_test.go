@@ -5,7 +5,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -16,6 +15,7 @@ import (
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testUpdateChanStatus checks that calls to the UpdateChanStatus RPC update

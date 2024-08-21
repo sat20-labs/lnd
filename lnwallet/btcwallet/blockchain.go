@@ -5,14 +5,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/lightninglabs/neutrino"
-	"github.com/lightninglabs/neutrino/headerfs"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/chain"
+	"github.com/tinyverse-web3/neutrino"
+	"github.com/tinyverse-web3/neutrino/headerfs"
 )
 
 var (

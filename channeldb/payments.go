@@ -9,14 +9,14 @@ import (
 	"sort"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/record"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

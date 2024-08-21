@@ -14,7 +14,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -24,6 +23,7 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/record"
 	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/tinyverse-web3/btcd/btcutil"
 	"github.com/urfave/cli"
 )
 

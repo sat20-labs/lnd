@@ -7,13 +7,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/tinyverse-web3/btcd/btcjson"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/chain"
+	"github.com/tinyverse-web3/btcwallet/wtxmgr"
 )
 
 // BitcoindFilteredChainView is an implementation of the FilteredChainView

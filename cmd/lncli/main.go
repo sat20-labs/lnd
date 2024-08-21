@@ -14,14 +14,14 @@ import (
 	"strings"
 	"syscall"
 
-	//"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
+	//"github.com/tinyverse-web3/btcd/btcutil"
 	"github.com/sat20-labs/lnd"
 	"github.com/sat20-labs/lnd/build"
 	"github.com/sat20-labs/lnd/lncfg"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/sat20-labs/lnd/tor"
+	"github.com/tinyverse-web3/btcd/chaincfg"
 	"github.com/urfave/cli"
 	"golang.org/x/term"
 	"google.golang.org/grpc"
@@ -51,7 +51,7 @@ const (
 )
 
 var (
-	defaultLndDir      = lnd.GetLndDir()//btcutil.AppDataDir("lnd", false)
+	defaultLndDir      = lnd.GetLndDir() //btcutil.AppDataDir("lnd", false)
 	defaultTLSCertPath = filepath.Join(defaultLndDir, defaultTLSCertFilename)
 
 	// maxMsgRecvSize is the largest message our client will receive. We

@@ -4,8 +4,8 @@
 package devrpc
 
 import (
-	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // Config is the primary configuration struct for the DEV RPC server. It

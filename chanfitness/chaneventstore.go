@@ -17,7 +17,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channelnotifier"
 	"github.com/sat20-labs/lnd/clock"
@@ -25,6 +24,7 @@ import (
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/subscribe"
 	"github.com/sat20-labs/lnd/ticker"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

@@ -8,9 +8,6 @@ import (
 	"os"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/go-errors/errors"
 	mig "github.com/sat20-labs/lnd/channeldb/migration"
 	"github.com/sat20-labs/lnd/channeldb/migration12"
@@ -32,6 +29,9 @@ import (
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

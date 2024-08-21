@@ -7,12 +7,12 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lntest/channels"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tlv"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // getPrefixAndChainParams selects network chain parameters based on the fuzzer-

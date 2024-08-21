@@ -3,11 +3,11 @@ package blob
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // CommitmentType characterises the various properties of the breach commitment

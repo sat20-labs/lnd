@@ -3,12 +3,12 @@ package discovery
 import (
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/graph"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/netann"
 	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // ChannelGraphTimeSeries is an interface that provides time and block based

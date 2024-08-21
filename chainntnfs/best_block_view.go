@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // BestBlockView is an interface that allows the querying of the most

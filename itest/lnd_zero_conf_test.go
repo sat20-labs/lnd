@@ -5,7 +5,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/aliasmgr"
 	"github.com/sat20-labs/lnd/chainreg"
@@ -17,6 +16,7 @@ import (
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testZeroConfChannelOpen tests that opening a zero-conf channel works and

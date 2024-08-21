@@ -6,8 +6,8 @@ package etcd
 import (
 	"testing"
 
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 func TestOpenCreateFailure(t *testing.T) {

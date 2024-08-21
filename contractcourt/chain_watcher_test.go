@@ -7,7 +7,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/input"
@@ -15,6 +14,7 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // TestChainWatcherRemoteUnilateralClose tests that the chain watcher is able

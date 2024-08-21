@@ -1,10 +1,10 @@
 package itest
 
 import (
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testWumboChannels tests that only a node that signals wumbo channel

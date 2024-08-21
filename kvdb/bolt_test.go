@@ -3,7 +3,7 @@ package kvdb
 import (
 	"testing"
 
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 func TestBolt(t *testing.T) {

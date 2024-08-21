@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // TestDecodeAcceptChannel tests decoding of an accept channel wire message with

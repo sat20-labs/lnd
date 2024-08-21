@@ -3,9 +3,6 @@ package localchans
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/discovery"
@@ -14,6 +11,9 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // TestManager tests that the local channel manager properly propagates fee

@@ -3,11 +3,11 @@ package chanfunding
 import (
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/wallet"
+	"github.com/tinyverse-web3/btcwallet/wtxmgr"
 )
 
 // CoinSource is an interface that allows a caller to access a source of UTXOs

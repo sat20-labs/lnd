@@ -1,11 +1,11 @@
 package lnwallet
 
 import (
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/mempool"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

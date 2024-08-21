@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/btcsuite/btcd/wire"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

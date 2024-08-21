@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	bitcoinCfg "github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
 	litecoinCfg "github.com/ltcsuite/ltcd/chaincfg"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	"github.com/sat20-labs/lnd/channeldb/migration_01_to_11/zpay32"
 	"github.com/sat20-labs/lnd/kvdb"
+	bitcoinCfg "github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // MigrateInvoices adds invoice htlcs and a separate cltv delta field to the

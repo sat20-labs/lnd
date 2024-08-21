@@ -581,7 +581,7 @@ messages directly. There is no routing/path finding involved.
   same PR.
 
 * [A bug has been fixed in 
-  Neutrino](https://github.com/lightninglabs/neutrino/pull/226) that would 
+  Neutrino](https://github.com/tinyverse-web3/neutrino/pull/226) that would 
   result in transactions being rebroadcast even after they had been confirmed. 
   [Lnd is updated to use the version of Neutrino containing this 
   fix](https://github.com/lightningnetwork/lnd/pull/5807).
@@ -602,7 +602,7 @@ messages directly. There is no routing/path finding involved.
 
 * A [`concurrent map writes` crash was
   fixed](https://github.com/lightningnetwork/lnd/pull/5893) in the
- [`btcwallet` dependency](https://github.com/btcsuite/btcwallet/pull/773).
+ [`btcwallet` dependency](https://github.com/tinyverse-web3/btcd/pull/773).
 
 * [A bug has been fixed that would at times cause intercepted HTLCs to be
   re-notified](https://github.com/lightningnetwork/lnd/pull/5901), which could

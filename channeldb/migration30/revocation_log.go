@@ -6,7 +6,6 @@ import (
 	"io"
 	"math"
 
-	"github.com/btcsuite/btcd/btcutil"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	mig24 "github.com/sat20-labs/lnd/channeldb/migration24"
 	mig25 "github.com/sat20-labs/lnd/channeldb/migration25"
@@ -15,6 +14,7 @@ import (
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

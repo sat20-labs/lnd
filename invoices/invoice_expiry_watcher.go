@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/clock"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/queue"
 	"github.com/sat20-labs/lnd/zpay32"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // invoiceExpiry is a vanity interface for different invoice expiry types

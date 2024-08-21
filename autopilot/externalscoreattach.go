@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // ExternalScoreAttachment is an implementation of the AttachmentHeuristic

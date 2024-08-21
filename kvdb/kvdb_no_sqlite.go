@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 var errSqliteNotAvailable = fmt.Errorf("sqlite backend not available either "+

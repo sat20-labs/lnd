@@ -10,10 +10,10 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 func randPubKey() (*btcec.PublicKey, error) {

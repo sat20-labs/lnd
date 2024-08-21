@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/txscript"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/fn"
@@ -18,6 +16,8 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/queue"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/txscript"
 )
 
 // htlcIncomingContestResolver is a ContractResolver that's able to resolve an

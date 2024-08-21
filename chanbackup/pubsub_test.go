@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 type mockSwapper struct {

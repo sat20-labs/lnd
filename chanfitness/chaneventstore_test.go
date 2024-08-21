@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/clock"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/subscribe"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // testNow is the current time tests will use.

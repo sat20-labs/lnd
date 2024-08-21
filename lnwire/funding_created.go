@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // FundingCreated is sent from Alice (the initiator) to Bob (the responder),

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcwallet/chain"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcwallet/chain"
 )
 
 // createNewNotifier creates a new instance of the ChainNotifier interface

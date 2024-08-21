@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 func TestConstraintsChannelBudget(t *testing.T) {

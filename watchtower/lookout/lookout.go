@@ -4,9 +4,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // Config houses the Lookout's required resources to properly fulfill it's duty,

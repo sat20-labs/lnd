@@ -5,7 +5,6 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btclog"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/chainreg"
@@ -31,6 +30,7 @@ import (
 	"github.com/sat20-labs/lnd/sweep"
 	"github.com/sat20-labs/lnd/watchtower"
 	"github.com/sat20-labs/lnd/watchtower/wtclient"
+	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // subRPCServerConfigs is special sub-config in the main configuration that

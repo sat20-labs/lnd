@@ -3,7 +3,7 @@ package contractcourt
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

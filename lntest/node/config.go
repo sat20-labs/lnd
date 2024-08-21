@@ -8,13 +8,13 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/integration/rpctest"
 	"github.com/sat20-labs/lnd"
 	"github.com/sat20-labs/lnd/chanbackup"
 	"github.com/sat20-labs/lnd/kvdb/etcd"
 	"github.com/sat20-labs/lnd/lntest/port"
 	"github.com/sat20-labs/lnd/lntest/wait"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/integration/rpctest"
 )
 
 const (

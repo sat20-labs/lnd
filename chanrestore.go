@@ -5,15 +5,15 @@ import (
 	"math"
 	"net"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/chanbackup"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/contractcourt"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/shachain"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 const (

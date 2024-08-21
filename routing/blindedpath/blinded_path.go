@@ -7,8 +7,6 @@ import (
 	"math"
 	"sort"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
@@ -17,6 +15,8 @@ import (
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/tlv"
 	"github.com/sat20-labs/lnd/zpay32"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // ClosingSigs houses the 3 possible signatures that can be sent when

@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/integration/rpctest"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lntest/port"
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/btcd/integration/rpctest"
 	"google.golang.org/grpc/grpclog"
 )
 

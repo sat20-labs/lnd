@@ -8,9 +8,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/tinyverse-web3/btcwallet/snacl"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

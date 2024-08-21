@@ -3,8 +3,8 @@ package migration29
 import (
 	"bytes"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

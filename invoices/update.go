@@ -5,11 +5,11 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/amp"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/record"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // invoiceUpdateCtx is an object that describes the context for the invoice

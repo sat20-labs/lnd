@@ -5,7 +5,6 @@ import (
 	"math"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -14,6 +13,7 @@ import (
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testUpdateChannelPolicy tests that policy updates made to a channel

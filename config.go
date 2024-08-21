@@ -11,6 +11,7 @@ import (
 	"io"
 	"net"
 	"os"
+
 	//"os/user"
 	"path/filepath"
 	"reflect"
@@ -19,10 +20,8 @@ import (
 	"strings"
 	"time"
 
-	//"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
+	//"github.com/tinyverse-web3/btcd/btcutil"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/lightninglabs/neutrino"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/build"
 	"github.com/sat20-labs/lnd/chainreg"
@@ -44,6 +43,8 @@ import (
 	"github.com/sat20-labs/lnd/routing"
 	"github.com/sat20-labs/lnd/signal"
 	"github.com/sat20-labs/lnd/tor"
+	"github.com/tinyverse-web3/btcd/chaincfg"
+	"github.com/tinyverse-web3/neutrino"
 )
 
 const (
@@ -271,10 +272,10 @@ var (
 	defaultTLSKeyPath     = filepath.Join(DefaultLndDir, defaultTLSKeyFilename)
 	defaultLetsEncryptDir = filepath.Join(DefaultLndDir, defaultLetsEncryptDirname)
 
-	defaultBtcdDir         = GetDefaultDir(btcdBackendName)// btcutil.AppDataDir(btcdBackendName, false)
+	defaultBtcdDir         = GetDefaultDir(btcdBackendName) // btcutil.AppDataDir(btcdBackendName, false)
 	defaultBtcdRPCCertFile = filepath.Join(defaultBtcdDir, "rpc.cert")
 
-	defaultBitcoindDir = GetDefaultDir(BitcoinChainName)//btcutil.AppDataDir(BitcoinChainName, false)
+	defaultBitcoindDir = GetDefaultDir(BitcoinChainName) //btcutil.AppDataDir(BitcoinChainName, false)
 
 	defaultTorSOCKS   = net.JoinHostPort("localhost", strconv.Itoa(defaultTorSOCKSPort))
 	defaultTorDNS     = net.JoinHostPort(defaultTorDNSHost, strconv.Itoa(defaultTorDNSPort))
@@ -564,7 +565,7 @@ func GetDefaultDir(app string) string {
 	// return filepath.Dir(execPath) + "/." + app
 
 	// 用于测试
-	return GetBaseDir()+ "/." + app
+	return GetBaseDir() + "/." + app
 }
 
 func GetLndDir() string {
@@ -574,7 +575,7 @@ func GetLndDir() string {
 // DefaultConfig returns all default values for the Config struct.
 //
 //nolint:lll
-func DefaultConfig() Config {	
+func DefaultConfig() Config {
 	return Config{
 		LndDir:            DefaultLndDir,
 		ConfigFile:        DefaultConfigFile,
@@ -1800,7 +1801,7 @@ func (c *Config) ImplementationConfig(
 
 // CleanAndExpandPath expands environment variables and leading ~ in the
 // passed path, cleans the result, and returns it.
-// This function is taken from https://github.com/btcsuite/btcd
+// This function is taken from https://github.com/tinyverse-web3/btcd
 func CleanAndExpandPath(path string) string {
 	if path == "" {
 		return ""

@@ -5,7 +5,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnwire"
@@ -13,6 +12,7 @@ import (
 	"github.com/sat20-labs/lnd/routing"
 	"github.com/sat20-labs/lnd/zpay32"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 	"google.golang.org/grpc"
 )
 

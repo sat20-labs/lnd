@@ -3,7 +3,7 @@ package autopilot
 import (
 	"runtime"
 
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // TopCentrality is a simple greedy technique to create connections to nodes

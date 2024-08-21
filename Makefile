@@ -1,11 +1,11 @@
-PKG := github.com/lightningnetwork/lnd
-ESCPKG := github.com\/lightningnetwork\/lnd
+PKG := github.com/sat20-labs/lnd
+ESCPKG := github.com\/sat20-labs\/lnd
 MOBILE_PKG := $(PKG)/mobile
 TOOLS_DIR := tools
 
 PREFIX ?= /usr/local
 
-BTCD_PKG := github.com/btcsuite/btcd
+BTCD_PKG := github.com/tinyverse-web3/btcd
 GOACC_PKG := github.com/ory/go-acc
 GOIMPORTS_PKG := github.com/rinchsan/gosimports/cmd/gosimports
 

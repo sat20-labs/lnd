@@ -6,9 +6,9 @@ package kvdb
 import (
 	"testing"
 
-	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb/postgres"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 type m = map[string]interface{}

@@ -3,12 +3,12 @@ package migration30
 import (
 	"bytes"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	mig25 "github.com/sat20-labs/lnd/channeldb/migration25"
 	mig26 "github.com/sat20-labs/lnd/channeldb/migration26"
 	mig "github.com/sat20-labs/lnd/channeldb/migration_01_to_11"
 	"github.com/sat20-labs/lnd/input"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // CommitmentKeyRing holds all derived keys needed to construct commitment and

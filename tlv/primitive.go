@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // ErrTypeForEncoding signals that an incorrect type was passed to an Encoder.

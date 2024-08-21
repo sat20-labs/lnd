@@ -6,7 +6,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/clock"
@@ -15,6 +14,7 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const testExpiry = time.Minute

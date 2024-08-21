@@ -6,10 +6,6 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/input"
@@ -24,6 +20,10 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/tinyverse-web3/btcd/txscript"
+	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 // testDisconnectingTargetPeer performs a test which disconnects Alice-peer

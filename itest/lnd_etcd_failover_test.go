@@ -12,7 +12,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/cluster"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lncfg"
@@ -20,6 +19,7 @@ import (
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lntest/port"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 func assertLeader(ht *lntest.HarnessTest, observer cluster.LeaderElector,

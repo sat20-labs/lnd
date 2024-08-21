@@ -10,7 +10,6 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/sat20-labs/lnd/lncfg"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -19,6 +18,7 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/blob"
 	"github.com/sat20-labs/lnd/watchtower/wtclient"
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/tinyverse-web3/btcd/btcec/v2"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

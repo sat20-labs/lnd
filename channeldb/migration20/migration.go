@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/tlv"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

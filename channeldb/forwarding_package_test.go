@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
+	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // TestPkgFilterBruteForce tests the behavior of a pkg filter up to size 1000,

@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"time"
 
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb" // Import to register backend.
+	_ "github.com/tinyverse-web3/btcwallet/walletdb/bdb" // Import to register backend.
 )
 
 const (

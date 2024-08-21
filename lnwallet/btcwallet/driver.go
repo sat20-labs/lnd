@@ -3,9 +3,9 @@ package btcwallet
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcwallet/chain"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/tinyverse-web3/btcwallet/chain"
 )
 
 const (
