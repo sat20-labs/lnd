@@ -15,9 +15,9 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/stretchr/testify/require"
 )
 

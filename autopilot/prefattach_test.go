@@ -8,7 +8,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/stretchr/testify/require"
 )
 

@@ -21,18 +21,18 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnutils"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/sat20-labs/lnd/build"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/shachain"
 )
 
 var (
@@ -3379,7 +3379,7 @@ const (
 	// protocol and deployed widely in the network.
 	// More information about the issue and the simplified commitment flow
 	// can be found here:
-	// https://github.com/lightningnetwork/lnd/issues/7657
+	// https://github.com/sat20-labs/lnd/issues/7657
 	// https://github.com/lightning/bolts/pull/867
 	//
 	// The last advantage is that we can react to fee spikes (up or down)
@@ -3587,7 +3587,7 @@ func (lc *LightningChannel) validateCommitmentSanity(theirLogCounter,
 	// when e.g. a new channel (bigger capacity) has a higher required
 	// reserve and the peer would need to add an additional htlc to push the
 	// missing amount to our side and viceversa.
-	// See: https://github.com/lightningnetwork/lnd/issues/8249
+	// See: https://github.com/sat20-labs/lnd/issues/8249
 	case ourBalance < ourInitialBalance && ourBalance < ourReserve:
 		lc.log.Debugf("Funds below chan reserve: ourBalance=%v, "+
 			"ourReserve=%v, commitFee=%v, feeBuffer=%v "+

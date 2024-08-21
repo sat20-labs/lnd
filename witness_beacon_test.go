@@ -3,11 +3,11 @@ package lnd
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/htlcswitch"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
 )
 

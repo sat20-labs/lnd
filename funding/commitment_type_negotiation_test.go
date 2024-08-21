@@ -3,8 +3,8 @@ package funding
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
 )
 

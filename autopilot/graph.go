@@ -11,11 +11,11 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/route"
 )
 
 var (

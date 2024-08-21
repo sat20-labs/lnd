@@ -3,7 +3,7 @@ package invoices
 import (
 	"time"
 
-	"github.com/lightningnetwork/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lntypes"
 )
 
 // HtlcResolution describes how an htlc should be resolved.

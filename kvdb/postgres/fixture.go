@@ -13,7 +13,7 @@ import (
 
 	"github.com/btcsuite/btcwallet/walletdb"
 	embeddedpostgres "github.com/fergusstrange/embedded-postgres"
-	"github.com/lightningnetwork/lnd/kvdb/sqlbase"
+	"github.com/sat20-labs/lnd/kvdb/sqlbase"
 )
 
 const (

@@ -6,13 +6,13 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/watchtower"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtmock"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/watchtower"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtmock"
+	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/stretchr/testify/require"
 )
 

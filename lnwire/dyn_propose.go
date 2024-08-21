@@ -6,9 +6,9 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 const (

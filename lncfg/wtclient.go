@@ -3,8 +3,8 @@ package lncfg
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/watchtower/wtclient"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/sat20-labs/lnd/watchtower/wtclient"
+	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 )
 
 // WtClient holds the configuration options for the daemon's watchtower client.

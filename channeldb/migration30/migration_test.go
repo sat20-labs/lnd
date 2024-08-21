@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	mig25 "github.com/lightningnetwork/lnd/channeldb/migration25"
-	mig26 "github.com/lightningnetwork/lnd/channeldb/migration26"
-	mig "github.com/lightningnetwork/lnd/channeldb/migration_01_to_11"
-	"github.com/lightningnetwork/lnd/channeldb/migtest"
-	"github.com/lightningnetwork/lnd/kvdb"
+	mig25 "github.com/sat20-labs/lnd/channeldb/migration25"
+	mig26 "github.com/sat20-labs/lnd/channeldb/migration26"
+	mig "github.com/sat20-labs/lnd/channeldb/migration_01_to_11"
+	"github.com/sat20-labs/lnd/channeldb/migtest"
+	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

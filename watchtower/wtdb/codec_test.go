@@ -11,8 +11,8 @@ import (
 	"testing/quick"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd/tor"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/tor"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/stretchr/testify/require"
 )
 

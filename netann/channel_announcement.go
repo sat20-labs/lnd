@@ -3,8 +3,8 @@ package netann
 import (
 	"bytes"
 
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // CreateChanAnnouncement is a helper function which creates all channel

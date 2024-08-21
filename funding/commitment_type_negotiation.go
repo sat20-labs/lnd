@@ -3,8 +3,8 @@ package funding
 import (
 	"errors"
 
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 var (

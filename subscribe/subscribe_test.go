@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/subscribe"
+	"github.com/sat20-labs/lnd/subscribe"
 )
 
 // TestSubscribe tests that the subscription clients receive the updates sent

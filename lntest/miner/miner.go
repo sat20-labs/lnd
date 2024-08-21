@@ -17,9 +17,9 @@ import (
 	"github.com/btcsuite/btcd/integration/rpctest"
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/lntest/node"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/lntest/node"
+	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

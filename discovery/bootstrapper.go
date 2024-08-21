@@ -14,11 +14,11 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/lightningnetwork/lnd/autopilot"
-	"github.com/lightningnetwork/lnd/lnutils"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tor"
 	"github.com/miekg/dns"
+	"github.com/sat20-labs/lnd/autopilot"
+	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/tor"
 )
 
 func init() {

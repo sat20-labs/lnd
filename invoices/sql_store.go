@@ -10,13 +10,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
-	"github.com/lightningnetwork/lnd/sqldb"
-	"github.com/lightningnetwork/lnd/sqldb/sqlc"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/clock"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
+	"github.com/sat20-labs/lnd/sqldb"
+	"github.com/sat20-labs/lnd/sqldb/sqlc"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"context"
 
 	gateway "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/encoding/protojson"
 )

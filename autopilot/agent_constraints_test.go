@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 func TestConstraintsChannelBudget(t *testing.T) {

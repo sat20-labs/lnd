@@ -7,10 +7,10 @@ import (
 	"math"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 const (

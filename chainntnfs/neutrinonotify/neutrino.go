@@ -17,10 +17,10 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/lightninglabs/neutrino"
 	"github.com/lightninglabs/neutrino/headerfs"
-	"github.com/lightningnetwork/lnd/blockcache"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/queue"
+	"github.com/sat20-labs/lnd/blockcache"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/queue"
 )
 
 const (

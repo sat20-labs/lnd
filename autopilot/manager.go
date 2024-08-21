@@ -6,9 +6,9 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/graph"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/graph"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // ManagerCfg houses a set of values and methods that is passed to the Manager

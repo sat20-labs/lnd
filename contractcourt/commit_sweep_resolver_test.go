@@ -6,15 +6,15 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntest/mock"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntest/mock"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/sweep"
 )
 
 type commitSweepResolverTestContext struct {

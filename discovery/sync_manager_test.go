@@ -10,10 +10,10 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/lntest/wait"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/sat20-labs/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/sat20-labs/lnd/ticker"
 	"github.com/stretchr/testify/require"
 )
 

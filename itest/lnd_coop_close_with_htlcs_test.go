@@ -5,13 +5,13 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/invoicesrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/wait"
-	"github.com/lightningnetwork/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/invoicesrpc"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/lnrpc/walletrpc"
+	"github.com/sat20-labs/lnd/lntest"
+	"github.com/sat20-labs/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/stretchr/testify/require"
 )
 

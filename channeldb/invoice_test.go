@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	invpkg "github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	invpkg "github.com/sat20-labs/lnd/invoices"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/tlv"
 	"github.com/stretchr/testify/require"
 )
 

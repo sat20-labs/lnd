@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
 )
 
 // OutPoint displays an outpoint string in the form "<txid>:<output-index>".

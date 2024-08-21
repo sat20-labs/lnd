@@ -10,12 +10,12 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet/chanfunding"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwallet/chanfunding"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // CommitmentType is an enum indicating the commitment type we should use for

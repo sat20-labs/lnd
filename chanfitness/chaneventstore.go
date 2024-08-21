@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channelnotifier"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/peernotifier"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/subscribe"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channelnotifier"
+	"github.com/sat20-labs/lnd/clock"
+	"github.com/sat20-labs/lnd/peernotifier"
+	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/sat20-labs/lnd/subscribe"
+	"github.com/sat20-labs/lnd/ticker"
 )
 
 const (

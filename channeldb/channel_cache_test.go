@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/channeldb/models"
 )
 
 // TestChannelCache checks the behavior of the channelCache with respect to

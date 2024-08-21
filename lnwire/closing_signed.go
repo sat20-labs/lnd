@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 // ClosingSigned is sent by both parties to a channel once the channel is clear

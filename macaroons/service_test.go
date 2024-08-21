@@ -6,8 +6,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"
 	"gopkg.in/macaroon-bakery.v2/bakery"

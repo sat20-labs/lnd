@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
-	"github.com/lightningnetwork/lnd/lntest/rpc"
-	"github.com/lightningnetwork/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/walletrpc"
+	"github.com/sat20-labs/lnd/lntest/rpc"
+	"github.com/sat20-labs/lnd/lnutils"
 )
 
 type (

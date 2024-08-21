@@ -1,7 +1,7 @@
 package lnwire
 
 import (
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 const (

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/lnrpc/lnclipb"
-	"github.com/lightningnetwork/lnd/lnrpc/verrpc"
+	"github.com/sat20-labs/lnd/build"
+	"github.com/sat20-labs/lnd/lnrpc/lnclipb"
+	"github.com/sat20-labs/lnd/lnrpc/verrpc"
 	"github.com/urfave/cli"
 )
 

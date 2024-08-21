@@ -14,7 +14,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/sat20-labs/lnd/tor"
 )
 
 const (

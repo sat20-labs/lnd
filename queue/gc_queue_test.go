@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/queue"
+	"github.com/sat20-labs/lnd/queue"
 )
 
 // testItem is an item type we'll be using to test the GCQueue.

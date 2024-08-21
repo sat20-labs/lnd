@@ -3,8 +3,8 @@
 package lncfg
 
 import (
-	"github.com/lightningnetwork/lnd/feature"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/feature"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // ProtocolOptions is a struct that we use to be able to test backwards

@@ -10,8 +10,8 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
 )
 

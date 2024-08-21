@@ -14,7 +14,7 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/sat20-labs/lnd/tor"
 )
 
 // MaxSliceLength is the maximum allowed length for any opaque byte slices in

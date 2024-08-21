@@ -8,14 +8,14 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/chainreg"
-	"github.com/lightningnetwork/lnd/funding"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/node"
-	"github.com/lightningnetwork/lnd/lntest/rpc"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/chainreg"
+	"github.com/sat20-labs/lnd/funding"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/lntest"
+	"github.com/sat20-labs/lnd/lntest/node"
+	"github.com/sat20-labs/lnd/lntest/rpc"
+	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

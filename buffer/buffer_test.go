@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/buffer"
+	"github.com/sat20-labs/lnd/buffer"
 )
 
 // TestRecycleSlice asserts that RecycleSlice always zeros a byte slice.

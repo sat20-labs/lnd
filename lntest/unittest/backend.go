@@ -12,9 +12,9 @@ import (
 	"github.com/btcsuite/btcwallet/chain"
 	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/lightninglabs/neutrino"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntest/port"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntest/port"
+	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

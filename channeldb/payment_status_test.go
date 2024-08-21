@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/stretchr/testify/require"
 )
 

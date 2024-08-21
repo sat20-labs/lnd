@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/lightningnetwork/lnd/lnrpc/autopilotrpc"
+	"github.com/sat20-labs/lnd/lnrpc/autopilotrpc"
 	"github.com/urfave/cli"
 )
 

@@ -12,8 +12,8 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/btcsuite/btcwallet/wtxmgr"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
 )
 
 const (

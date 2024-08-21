@@ -3,8 +3,8 @@ package channeldb
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntypes"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntypes"
 )
 
 var (

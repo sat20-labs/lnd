@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/stretchr/testify/require"
 )
 

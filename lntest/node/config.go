@@ -10,11 +10,11 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/integration/rpctest"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/kvdb/etcd"
-	"github.com/lightningnetwork/lnd/lntest/port"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd"
+	"github.com/sat20-labs/lnd/chanbackup"
+	"github.com/sat20-labs/lnd/kvdb/etcd"
+	"github.com/sat20-labs/lnd/lntest/port"
+	"github.com/sat20-labs/lnd/lntest/wait"
 )
 
 const (

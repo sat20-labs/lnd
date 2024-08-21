@@ -8,8 +8,8 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/chain"
 	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/lightningnetwork/lnd/lnmock"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnmock"
+	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

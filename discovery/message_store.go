@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 var (

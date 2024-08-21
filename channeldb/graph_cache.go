@@ -5,10 +5,10 @@ import (
 	"sync"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/route"
 )
 
 // GraphCacheNode is an interface for all the information the cache needs to know

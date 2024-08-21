@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/tlv"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtwire"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/tlv"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtwire"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,8 +6,8 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/lightningnetwork/lnd/blockcache"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/blockcache"
+	"github.com/sat20-labs/lnd/chainntnfs"
 )
 
 // createNewNotifier creates a new instance of the ChainNotifier interface

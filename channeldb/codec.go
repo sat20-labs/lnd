@@ -11,10 +11,10 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/shachain"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 // writeOutpoint writes an outpoint to the passed writer using the minimal

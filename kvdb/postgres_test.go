@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightningnetwork/lnd/kvdb/postgres"
+	"github.com/sat20-labs/lnd/kvdb/postgres"
 	"github.com/stretchr/testify/require"
 )
 

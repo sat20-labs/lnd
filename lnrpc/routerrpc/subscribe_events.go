@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/htlcswitch"
+	"github.com/sat20-labs/lnd/invoices"
+	"github.com/sat20-labs/lnd/lnrpc"
 )
 
 // rpcHtlcEvent returns a rpc htlc event from a htlcswitch event.

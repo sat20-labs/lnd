@@ -9,7 +9,7 @@ import (
 	prand "math/rand"
 	"time"
 
-	"github.com/lightningnetwork/lnd/sqldb/sqlc"
+	"github.com/sat20-labs/lnd/sqldb/sqlc"
 )
 
 var (

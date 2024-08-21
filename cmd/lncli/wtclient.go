@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lightningnetwork/lnd/lnrpc/wtclientrpc"
+	"github.com/sat20-labs/lnd/lnrpc/wtclientrpc"
 	"github.com/urfave/cli"
 )
 

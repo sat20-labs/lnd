@@ -7,10 +7,10 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/subscribe"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/clock"
+	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/sat20-labs/lnd/subscribe"
 	"github.com/stretchr/testify/require"
 )
 

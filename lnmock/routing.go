@@ -3,7 +3,7 @@ package lnmock
 import (
 	"bytes"
 
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // MockOnion returns a mock onion payload.

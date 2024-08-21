@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/urfave/cli"
 )
 

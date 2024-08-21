@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lntest/port"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd"
+	"github.com/sat20-labs/lnd/lntest/port"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,8 +3,8 @@ package sweep
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/stretchr/testify/require"
 )
 

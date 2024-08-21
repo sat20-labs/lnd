@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnutils"
 	"github.com/stretchr/testify/require"
 )
 

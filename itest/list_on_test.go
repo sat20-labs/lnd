@@ -2,7 +2,7 @@
 
 package itest
 
-import "github.com/lightningnetwork/lnd/lntest"
+import "github.com/sat20-labs/lnd/lntest"
 
 var allTestCases = []*lntest.TestCase{
 	{

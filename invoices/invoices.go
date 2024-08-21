@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lightningnetwork/lnd/feature"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
+	"github.com/sat20-labs/lnd/feature"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
 )
 
 const (

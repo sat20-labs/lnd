@@ -5,10 +5,10 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 )
 
 // UtxoAggregator defines an interface that takes a list of inputs and

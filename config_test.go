@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/chainreg"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/sat20-labs/lnd/chainreg"
+	"github.com/sat20-labs/lnd/routing"
 	"github.com/stretchr/testify/require"
 )
 

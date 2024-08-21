@@ -6,8 +6,8 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
 	"github.com/stretchr/testify/require"
 )
 

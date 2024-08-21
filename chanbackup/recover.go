@@ -4,9 +4,9 @@ import (
 	"net"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnutils"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lnutils"
 )
 
 // ChannelRestorer is an interface that allows the Recover method to map the

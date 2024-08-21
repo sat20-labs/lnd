@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
 )
 

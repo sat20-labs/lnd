@@ -5,14 +5,14 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/invoices"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
 )
 
 // InvoiceDatabase is an interface which represents the persistent subsystem

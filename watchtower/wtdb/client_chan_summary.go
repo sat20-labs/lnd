@@ -3,8 +3,8 @@ package wtdb
 import (
 	"io"
 
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // ChannelInfos is a map for a given channel id to it's ChannelInfo.

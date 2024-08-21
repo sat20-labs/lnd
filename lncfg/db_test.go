@@ -3,8 +3,8 @@ package lncfg_test
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lncfg"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lncfg"
 	"github.com/stretchr/testify/require"
 )
 

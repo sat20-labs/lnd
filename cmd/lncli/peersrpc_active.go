@@ -6,8 +6,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/peersrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/peersrpc"
 	"github.com/urfave/cli"
 )
 

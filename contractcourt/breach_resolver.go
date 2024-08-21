@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb"
 )
 
 // breachResolver is a resolver that will handle breached closes. In the

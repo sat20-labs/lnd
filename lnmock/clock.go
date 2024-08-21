@@ -5,7 +5,7 @@ package lnmock
 import (
 	"time"
 
-	"github.com/lightningnetwork/lnd/clock"
+	"github.com/sat20-labs/lnd/clock"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -3,9 +3,9 @@ package itest
 import (
 	"time"
 
-	"github.com/lightningnetwork/lnd/chainreg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest"
+	"github.com/sat20-labs/lnd/chainreg"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lntest"
 	"github.com/stretchr/testify/require"
 )
 

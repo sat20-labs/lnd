@@ -2,7 +2,7 @@ package record
 
 import (
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 const (

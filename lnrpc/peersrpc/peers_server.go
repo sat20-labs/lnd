@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"github.com/lightningnetwork/lnd/feature"
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/netann"
+	"github.com/sat20-labs/lnd/feature"
+	"github.com/sat20-labs/lnd/lncfg"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/netann"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

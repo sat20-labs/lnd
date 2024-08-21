@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcwallet/walletdb/walletdbtest"
-	"github.com/lightningnetwork/lnd/kvdb/sqlbase"
+	"github.com/sat20-labs/lnd/kvdb/sqlbase"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 )

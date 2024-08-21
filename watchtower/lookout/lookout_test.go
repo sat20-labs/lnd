@@ -10,14 +10,14 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtmock"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/lookout"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtmock"
+	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/stretchr/testify/require"
 )
 

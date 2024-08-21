@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/chainntnfs"
 )
 
 // SpendNotifier extends the mock.ChainNotifier so that spend

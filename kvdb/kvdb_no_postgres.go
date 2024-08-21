@@ -6,7 +6,7 @@ package kvdb
 import (
 	"errors"
 
-	"github.com/lightningnetwork/lnd/kvdb/postgres"
+	"github.com/sat20-labs/lnd/kvdb/postgres"
 )
 
 const PostgresBackend = false

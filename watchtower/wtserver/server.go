@@ -11,10 +11,10 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/connmgr"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtwire"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtwire"
 )
 
 var (

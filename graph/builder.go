@@ -13,21 +13,21 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/batch"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnutils"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chanvalidate"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/multimutex"
-	"github.com/lightningnetwork/lnd/routing/chainview"
-	"github.com/lightningnetwork/lnd/routing/route"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/sat20-labs/lnd/batch"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/btcwallet"
+	"github.com/sat20-labs/lnd/lnwallet/chanvalidate"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/multimutex"
+	"github.com/sat20-labs/lnd/routing/chainview"
+	"github.com/sat20-labs/lnd/routing/route"
+	"github.com/sat20-labs/lnd/ticker"
 )
 
 const (
@@ -765,7 +765,7 @@ func (b *Builder) networkHandler() {
 	// subsystems or basic rpc calls that rely on calls such as GetBestBlock
 	// will hang due to excessive load.
 	//
-	// See https://github.com/lightningnetwork/lnd/issues/4892.
+	// See https://github.com/sat20-labs/lnd/issues/4892.
 	var validationBarrier *ValidationBarrier
 	if b.cfg.AssumeChannelValid {
 		validationBarrier = NewValidationBarrier(1000, b.quit)

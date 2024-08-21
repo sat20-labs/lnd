@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/amp"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/shards"
+	"github.com/sat20-labs/lnd/amp"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/shards"
 	"github.com/stretchr/testify/require"
 )
 

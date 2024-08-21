@@ -4,11 +4,11 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/graph"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/netann"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/graph"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/netann"
+	"github.com/sat20-labs/lnd/routing/route"
 )
 
 // ChannelGraphTimeSeries is an interface that provides time and block based

@@ -7,12 +7,12 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
-	mig25 "github.com/lightningnetwork/lnd/channeldb/migration25"
-	mig26 "github.com/lightningnetwork/lnd/channeldb/migration26"
-	mig "github.com/lightningnetwork/lnd/channeldb/migration_01_to_11"
-	"github.com/lightningnetwork/lnd/channeldb/migtest"
-	"github.com/lightningnetwork/lnd/kvdb"
+	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
+	mig25 "github.com/sat20-labs/lnd/channeldb/migration25"
+	mig26 "github.com/sat20-labs/lnd/channeldb/migration26"
+	mig "github.com/sat20-labs/lnd/channeldb/migration_01_to_11"
+	"github.com/sat20-labs/lnd/channeldb/migtest"
+	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
-	mig24 "github.com/lightningnetwork/lnd/channeldb/migration24"
-	mig "github.com/lightningnetwork/lnd/channeldb/migration_01_to_11"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/tlv"
+	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
+	mig24 "github.com/sat20-labs/lnd/channeldb/migration24"
+	mig "github.com/sat20-labs/lnd/channeldb/migration_01_to_11"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 const (

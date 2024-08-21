@@ -5,9 +5,9 @@ import (
 	"errors"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/watchtower/blob"
 )
 
 var (

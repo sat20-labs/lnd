@@ -1,8 +1,8 @@
 package itest
 
 import (
-	"github.com/lightningnetwork/lnd/lnrpc/neutrinorpc"
-	"github.com/lightningnetwork/lnd/lntest"
+	"github.com/sat20-labs/lnd/lnrpc/neutrinorpc"
+	"github.com/sat20-labs/lnd/lntest"
 	"github.com/stretchr/testify/require"
 )
 

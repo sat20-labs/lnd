@@ -11,10 +11,10 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/wire"
-	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/tlv"
+	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 var (

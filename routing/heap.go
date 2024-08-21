@@ -3,8 +3,8 @@ package routing
 import (
 	"container/heap"
 
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/route"
 )
 
 // nodeWithDist is a helper struct that couples the distance from the current

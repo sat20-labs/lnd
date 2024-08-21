@@ -6,9 +6,9 @@ import (
 	"errors"
 	"io"
 
-	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
-	"github.com/lightningnetwork/lnd/channeldb/migration21/common"
-	"github.com/lightningnetwork/lnd/kvdb"
+	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
+	"github.com/sat20-labs/lnd/channeldb/migration21/common"
+	"github.com/sat20-labs/lnd/kvdb"
 )
 
 func deserializeHtlcs(r io.Reader) ([]common.HTLC, error) {

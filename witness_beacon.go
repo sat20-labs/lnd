@@ -4,13 +4,13 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/contractcourt"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/contractcourt"
+	"github.com/sat20-labs/lnd/htlcswitch"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // preimageSubscriber reprints an active subscription to be notified once the

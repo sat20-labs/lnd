@@ -12,9 +12,9 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	lnwire "github.com/lightningnetwork/lnd/channeldb/migration/lnwire21"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/shachain"
+	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/shachain"
 )
 
 var (

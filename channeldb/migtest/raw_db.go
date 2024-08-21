@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/kvdb"
 )
 
 // DumpDB dumps go code describing the contents of the database to stdout. This

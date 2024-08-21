@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/lnpeer"
+	"github.com/sat20-labs/lnd/lnwire"
 	"golang.org/x/time/rate"
 )
 

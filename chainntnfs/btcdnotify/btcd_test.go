@@ -9,10 +9,10 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/integration/rpctest"
-	"github.com/lightningnetwork/lnd/blockcache"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lntest/unittest"
+	"github.com/sat20-labs/lnd/blockcache"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/lntest/unittest"
 	"github.com/stretchr/testify/require"
 )
 

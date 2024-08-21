@@ -3,8 +3,8 @@ package channeldb
 import (
 	"time"
 
-	"github.com/lightningnetwork/lnd/clock"
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/clock"
+	"github.com/sat20-labs/lnd/kvdb"
 )
 
 const (

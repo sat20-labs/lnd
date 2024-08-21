@@ -8,7 +8,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/require"
 )
 

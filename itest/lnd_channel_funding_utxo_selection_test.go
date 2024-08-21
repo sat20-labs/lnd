@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/node"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/walletrpc"
+	"github.com/sat20-labs/lnd/lntest"
+	"github.com/sat20-labs/lnd/lntest/node"
+	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
+	"github.com/sat20-labs/lnd/build"
 	"github.com/stretchr/testify/require"
 )
 

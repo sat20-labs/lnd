@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb/migtest"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/channeldb/migtest"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 var (

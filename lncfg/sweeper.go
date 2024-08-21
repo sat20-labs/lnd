@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lightningnetwork/lnd/contractcourt"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/sat20-labs/lnd/contractcourt"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/sweep"
 )
 
 const (

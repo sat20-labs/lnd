@@ -6,7 +6,7 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lntypes"
 )
 
 // EmptyOutPoint is a zeroed outpoint.

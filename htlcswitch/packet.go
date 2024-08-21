@@ -1,11 +1,11 @@
 package htlcswitch
 
 import (
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
 )
 
 // htlcPacket is a wrapper around htlc lnwire update, which adds additional

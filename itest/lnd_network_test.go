@@ -5,12 +5,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/node"
-	"github.com/lightningnetwork/lnd/lntest/port"
-	"github.com/lightningnetwork/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/lncfg"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lntest"
+	"github.com/sat20-labs/lnd/lntest/node"
+	"github.com/sat20-labs/lnd/lntest/port"
+	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
 )
 

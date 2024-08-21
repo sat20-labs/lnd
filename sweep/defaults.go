@@ -1,7 +1,7 @@
 package sweep
 
 import (
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 )
 
 var (

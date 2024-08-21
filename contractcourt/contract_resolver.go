@@ -8,9 +8,9 @@ import (
 
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/fn"
+	"github.com/sat20-labs/lnd/build"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/fn"
 )
 
 var (

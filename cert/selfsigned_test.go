@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/cert"
+	"github.com/sat20-labs/lnd/cert"
 	"github.com/stretchr/testify/require"
 )
 

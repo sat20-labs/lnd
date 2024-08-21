@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/stretchr/testify/require"
 )
 

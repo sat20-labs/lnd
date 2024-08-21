@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/subscribe"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/subscribe"
 )
 
 // HtlcNotifier notifies clients of htlc forwards, failures and settles for

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/lightningnetwork/lnd/lncfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/sat20-labs/lnd/lncfg"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/urfave/cli"
 	"google.golang.org/protobuf/proto"
 	"gopkg.in/macaroon-bakery.v2/bakery"

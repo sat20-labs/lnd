@@ -3,9 +3,9 @@ package rpc
 import (
 	"context"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/invoicesrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/invoicesrpc"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 )
 
 // =====================

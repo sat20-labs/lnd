@@ -4,9 +4,9 @@
 package signrpc
 
 import (
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/macaroons"
 )
 
 // Config is the primary configuration struct for the signer RPC server. It

@@ -9,14 +9,14 @@ import (
 	"io"
 	"time"
 
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	invpkg "github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	invpkg "github.com/sat20-labs/lnd/invoices"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 var (
@@ -2283,7 +2283,7 @@ func (d *DB) DeleteInvoice(_ context.Context,
 					// with an empty migration it may be
 					// possible that the index doesn't have
 					// an entry for this invoice.
-					// ref: https://github.com/lightningnetwork/lnd/pull/4285/commits/cbf71b5452fa1d3036a43309e490787c5f7f08dc#r426368127
+					// ref: https://github.com/sat20-labs/lnd/pull/4285/commits/cbf71b5452fa1d3036a43309e490787c5f7f08dc#r426368127
 					if err := payAddrIndex.Delete(
 						ref.PayAddr[:],
 					); err != nil {

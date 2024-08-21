@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lightningnetwork/lnd/cluster"
+	"github.com/sat20-labs/lnd/cluster"
 )
 
 const (

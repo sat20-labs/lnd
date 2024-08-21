@@ -11,7 +11,7 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/sat20-labs/lnd/tor"
 	"github.com/stretchr/testify/require"
 )
 

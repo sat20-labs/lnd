@@ -10,10 +10,10 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
 )
 
 var (

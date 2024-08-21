@@ -10,12 +10,12 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnutils"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 )
 
 var (

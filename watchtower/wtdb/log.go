@@ -2,15 +2,15 @@ package wtdb
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration1"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration2"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration3"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration4"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration5"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration6"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration7"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb/migration8"
+	"github.com/sat20-labs/lnd/build"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration1"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration2"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration3"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration4"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration5"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration6"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration7"
+	"github.com/sat20-labs/lnd/watchtower/wtdb/migration8"
 )
 
 // log is a logger that is initialized with no output filters.  This

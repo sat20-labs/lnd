@@ -10,12 +10,12 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/txscript"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtmock"
-	"github.com/lightningnetwork/lnd/watchtower/wtserver"
-	"github.com/lightningnetwork/lnd/watchtower/wtwire"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtmock"
+	"github.com/sat20-labs/lnd/watchtower/wtserver"
+	"github.com/sat20-labs/lnd/watchtower/wtwire"
 	"github.com/stretchr/testify/require"
 )
 

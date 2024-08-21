@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 )
 
 // CSessionStatus is a bit-field representing the possible statuses of

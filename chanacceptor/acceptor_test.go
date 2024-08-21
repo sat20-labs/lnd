@@ -8,9 +8,9 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet/chancloser"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnwallet/chancloser"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

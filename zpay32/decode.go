@@ -14,7 +14,7 @@ import (
 	"github.com/btcsuite/btcd/btcutil/bech32"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // DecodeOption is a type that can be used to supply functional options to the

@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
 )
 
 var (

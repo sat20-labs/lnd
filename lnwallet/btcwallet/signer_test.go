@@ -17,10 +17,10 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/chain"
 	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/lightningnetwork/lnd/blockcache"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntest/unittest"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/blockcache"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lntest/unittest"
+	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/stretchr/testify/require"
 )
 

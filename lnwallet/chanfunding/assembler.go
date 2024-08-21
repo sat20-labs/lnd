@@ -7,7 +7,7 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/btcsuite/btcwallet/wtxmgr"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 )
 
 // CoinSource is an interface that allows a caller to access a source of UTXOs

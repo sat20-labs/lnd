@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/record"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/record"
 	"github.com/stretchr/testify/require"
 )
 

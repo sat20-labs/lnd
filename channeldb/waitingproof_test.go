@@ -6,7 +6,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
 )
 

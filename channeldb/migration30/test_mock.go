@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/sat20-labs/lnd/shachain"
 	"github.com/stretchr/testify/mock"
 )
 

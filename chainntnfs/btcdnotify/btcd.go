@@ -15,10 +15,10 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/chain"
-	"github.com/lightningnetwork/lnd/blockcache"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/queue"
+	"github.com/sat20-labs/lnd/blockcache"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/queue"
 )
 
 const (

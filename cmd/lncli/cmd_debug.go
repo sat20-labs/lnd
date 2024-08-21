@@ -11,9 +11,9 @@ import (
 
 	"github.com/andybalholm/brotli"
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd"
-	"github.com/lightningnetwork/lnd/lnencrypt"
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/sat20-labs/lnd"
+	"github.com/sat20-labs/lnd/lnencrypt"
+	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/urfave/cli"
 	"google.golang.org/protobuf/proto"
 )

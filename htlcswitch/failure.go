@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // ClearTextError is an interface which is implemented by errors that occur

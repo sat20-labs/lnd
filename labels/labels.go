@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcwallet/wtxmgr"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // External labels a transaction as user initiated via the api. This

@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/lnencrypt"
+	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/stretchr/testify/require"
 )
 

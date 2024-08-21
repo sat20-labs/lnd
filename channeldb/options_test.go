@@ -3,8 +3,8 @@ package channeldb_test
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/stretchr/testify/require"
 )
 

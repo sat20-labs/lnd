@@ -6,7 +6,7 @@ package invoicesrpc
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
 )
 
 // createNewSubServer is a helper method that will create the new sub server

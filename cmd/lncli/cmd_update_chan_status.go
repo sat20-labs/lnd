@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 	"github.com/urfave/cli"
 )
 

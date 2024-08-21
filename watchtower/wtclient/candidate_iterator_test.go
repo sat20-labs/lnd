@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/stretchr/testify/require"
 )
 

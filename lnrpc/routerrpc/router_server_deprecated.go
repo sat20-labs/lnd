@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/route"
 )
 
 // legacyTrackPaymentServer is a wrapper struct that transforms a stream of main

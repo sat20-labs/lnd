@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/btcutil"
-	"github.com/lightningnetwork/lnd/chainreg"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
-	"github.com/lightningnetwork/lnd/lntest"
-	"github.com/lightningnetwork/lnd/lntest/node"
-	"github.com/lightningnetwork/lnd/lntest/wait"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/chainreg"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/lntest"
+	"github.com/sat20-labs/lnd/lntest/node"
+	"github.com/sat20-labs/lnd/lntest/wait"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -291,7 +291,7 @@ func testForwardInterceptorBasic(ht *lntest.HarnessTest) {
 
 	// Verify that we don't get notified about already completed HTLCs
 	// We do that by restarting alice, the sender the HTLCs. Under
-	// https://github.com/lightningnetwork/lnd/issues/5115
+	// https://github.com/sat20-labs/lnd/issues/5115
 	// this should cause all HTLCs settled or failed by the interceptor to
 	// renotify.
 	restartAlice := ht.SuspendNode(alice)

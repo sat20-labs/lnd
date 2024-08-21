@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,7 +7,7 @@ import (
 	"net"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 // TowerStatus represents the state of the tower as set by the tower client.

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing/route"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/require"
 )
 

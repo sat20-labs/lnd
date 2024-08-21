@@ -15,7 +15,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/lightningnetwork/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnutils"
 )
 
 const (

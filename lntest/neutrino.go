@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/lntest/node"
+	"github.com/sat20-labs/lnd/lntest/node"
 )
 
 // NeutrinoBackendConfig is an implementation of the BackendConfig interface

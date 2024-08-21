@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/sqldb/sqlc"
+	"github.com/sat20-labs/lnd/sqldb/sqlc"
 	"github.com/stretchr/testify/require"
 )
 

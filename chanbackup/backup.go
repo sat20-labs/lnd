@@ -6,8 +6,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/kvdb"
 )
 
 // LiveChannelSource is an interface that allows us to query for the set of

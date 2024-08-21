@@ -6,7 +6,7 @@ package monitoring
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/lncfg"
+	"github.com/sat20-labs/lnd/lncfg"
 	"google.golang.org/grpc"
 )
 

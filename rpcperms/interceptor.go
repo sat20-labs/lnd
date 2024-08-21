@@ -9,10 +9,10 @@ import (
 
 	"github.com/btcsuite/btclog"
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/macaroons"
-	"github.com/lightningnetwork/lnd/monitoring"
-	"github.com/lightningnetwork/lnd/subscribe"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/macaroons"
+	"github.com/sat20-labs/lnd/monitoring"
+	"github.com/sat20-labs/lnd/subscribe"
 	"google.golang.org/grpc"
 	"gopkg.in/macaroon-bakery.v2/bakery"
 )

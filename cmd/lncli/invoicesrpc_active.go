@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/lightningnetwork/lnd/lnrpc/invoicesrpc"
+	"github.com/sat20-labs/lnd/lnrpc/invoicesrpc"
 	"github.com/urfave/cli"
 )
 

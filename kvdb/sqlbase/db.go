@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightningnetwork/lnd/sqldb"
+	"github.com/sat20-labs/lnd/sqldb"
 )
 
 const (

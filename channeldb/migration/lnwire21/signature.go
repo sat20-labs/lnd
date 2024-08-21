@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/lightningnetwork/lnd/input"
+	"github.com/sat20-labs/lnd/input"
 )
 
 // Sig is a fixed-sized ECDSA signature. Unlike Bitcoin, we use fixed sized

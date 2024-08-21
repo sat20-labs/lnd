@@ -3,10 +3,10 @@ package lnwallet
 import (
 	"crypto/sha256"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // updateType is the exact type of an entry within the shared HTLC log.

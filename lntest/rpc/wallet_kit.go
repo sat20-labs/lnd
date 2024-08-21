@@ -3,9 +3,9 @@ package rpc
 import (
 	"context"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/signrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/walletrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/signrpc"
+	"github.com/sat20-labs/lnd/lnrpc/walletrpc"
 	"github.com/stretchr/testify/require"
 )
 

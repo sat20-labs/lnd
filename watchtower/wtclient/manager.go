@@ -9,17 +9,17 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channelnotifier"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/subscribe"
-	"github.com/lightningnetwork/lnd/tor"
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channelnotifier"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/subscribe"
+	"github.com/sat20-labs/lnd/tor"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 )
 
 // ClientManager is the primary interface used by the daemon to control a

@@ -3,8 +3,8 @@ package wtpolicy_test
 import (
 	"testing"
 
-	"github.com/lightningnetwork/lnd/watchtower/blob"
-	"github.com/lightningnetwork/lnd/watchtower/wtpolicy"
+	"github.com/sat20-labs/lnd/watchtower/blob"
+	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 // ExtraOpaqueData is the set of data that was appended to this message, some

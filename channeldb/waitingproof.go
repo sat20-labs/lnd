@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 var (

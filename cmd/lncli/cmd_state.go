@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/urfave/cli"
 )
 

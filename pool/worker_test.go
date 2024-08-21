@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/buffer"
-	"github.com/lightningnetwork/lnd/pool"
+	"github.com/sat20-labs/lnd/buffer"
+	"github.com/sat20-labs/lnd/pool"
 	"github.com/stretchr/testify/require"
 )
 

@@ -17,12 +17,12 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntest/mock"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lntest/mock"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/sweep"
 	"github.com/stretchr/testify/require"
 )
 

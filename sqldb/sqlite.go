@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	sqlite_migrate "github.com/golang-migrate/migrate/v4/database/sqlite"
-	"github.com/lightningnetwork/lnd/sqldb/sqlc"
+	"github.com/sat20-labs/lnd/sqldb/sqlc"
 	"github.com/stretchr/testify/require"
 	_ "modernc.org/sqlite" // Register relevant drivers.
 )

@@ -12,10 +12,10 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcwallet/wtxmgr"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/lntest/mock"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/lntest/mock"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/stretchr/testify/require"
 )
 

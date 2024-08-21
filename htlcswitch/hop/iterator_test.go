@@ -9,9 +9,9 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/davecgh/go-spew/spew"
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
+	"github.com/sat20-labs/lnd/tlv"
 	"github.com/stretchr/testify/require"
 )
 

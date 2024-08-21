@@ -6,10 +6,10 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/zpay32"
+	"github.com/sat20-labs/lnd/invoices"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/zpay32"
 )
 
 // decodePayReq decodes the invoice payment request if present. This is needed,

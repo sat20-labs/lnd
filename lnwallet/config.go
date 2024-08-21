@@ -3,11 +3,11 @@ package lnwallet
 import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 )
 
 // Config is a struct which houses configuration parameters which modify the

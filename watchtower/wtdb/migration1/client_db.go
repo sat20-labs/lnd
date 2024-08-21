@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/kvdb"
 )
 
 var (

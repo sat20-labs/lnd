@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightningnetwork/lnd/kvdb/etcd"
+	"github.com/sat20-labs/lnd/kvdb/etcd"
 	"github.com/stretchr/testify/require"
 )
 

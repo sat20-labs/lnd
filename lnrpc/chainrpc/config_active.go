@@ -4,9 +4,9 @@
 package chainrpc
 
 import (
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/macaroons"
 )
 
 // Config is the primary configuration struct for the chain notifier RPC server.

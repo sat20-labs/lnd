@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/lightningnetwork/lnd/kvdb/etcd"
+	"github.com/sat20-labs/lnd/kvdb/etcd"
 	"go.etcd.io/etcd/client/pkg/v3/transport"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/concurrency"

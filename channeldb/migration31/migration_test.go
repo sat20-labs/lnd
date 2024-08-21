@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb/migtest"
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/channeldb/migtest"
+	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/stretchr/testify/require"
 )
 

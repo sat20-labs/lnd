@@ -3,8 +3,8 @@ package rpc
 import (
 	"context"
 
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnrpc/routerrpc"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 	"github.com/stretchr/testify/require"
 )
 

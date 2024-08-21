@@ -5,8 +5,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/htlcswitch"
+	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
 )
 

@@ -12,9 +12,9 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	sphinx "github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/record"
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/record"
+	"github.com/sat20-labs/lnd/tlv"
 )
 
 // VertexSize is the size of the array to store a vertex.

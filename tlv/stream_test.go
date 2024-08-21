@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/tlv"
+	"github.com/sat20-labs/lnd/tlv"
 	"github.com/stretchr/testify/require"
 )
 

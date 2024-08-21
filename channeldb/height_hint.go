@@ -3,8 +3,8 @@ package channeldb
 import (
 	"bytes"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/kvdb"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/kvdb"
 )
 
 var (

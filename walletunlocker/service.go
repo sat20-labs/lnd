@@ -12,14 +12,14 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/lightningnetwork/lnd/aezeed"
-	"github.com/lightningnetwork/lnd/chanbackup"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
-	"github.com/lightningnetwork/lnd/macaroons"
+	"github.com/sat20-labs/lnd/aezeed"
+	"github.com/sat20-labs/lnd/chanbackup"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnrpc"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/btcwallet"
+	"github.com/sat20-labs/lnd/macaroons"
 )
 
 var (

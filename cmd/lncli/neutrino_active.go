@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/lightningnetwork/lnd/lnrpc/neutrinorpc"
+	"github.com/sat20-labs/lnd/lnrpc/neutrinorpc"
 	"github.com/urfave/cli"
 )
 

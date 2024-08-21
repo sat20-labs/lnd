@@ -10,15 +10,15 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnutils"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/sweep"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/sweep"
 )
 
 // htlcTimeoutResolver is a ContractResolver that's capable of resolving an
@@ -500,7 +500,7 @@ func (h *htlcTimeoutResolver) sweepSecondLevelTx(immediate bool) error {
 	// closes, we use all its output value plus a wallet input as the
 	// budget. This is a temporary solution until we can optionally cancel
 	// the incoming HTLC, more details in,
-	// - https://github.com/lightningnetwork/lnd/issues/7969
+	// - https://github.com/sat20-labs/lnd/issues/7969
 	budget := calculateBudget(
 		btcutil.Amount(inp.SignDesc().Output.Value), 2, 0,
 	)

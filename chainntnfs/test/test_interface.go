@@ -19,14 +19,14 @@ import (
 	"github.com/btcsuite/btcwallet/chain"
 	_ "github.com/btcsuite/btcwallet/walletdb/bdb" // Required to auto-register the boltdb walletdb implementation.
 	"github.com/lightninglabs/neutrino"
-	"github.com/lightningnetwork/lnd/blockcache"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/chainntnfs/bitcoindnotify"
-	"github.com/lightningnetwork/lnd/chainntnfs/btcdnotify"
-	"github.com/lightningnetwork/lnd/chainntnfs/neutrinonotify"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/lntest/unittest"
-	"github.com/lightningnetwork/lnd/lnutils"
+	"github.com/sat20-labs/lnd/blockcache"
+	"github.com/sat20-labs/lnd/chainntnfs"
+	"github.com/sat20-labs/lnd/chainntnfs/bitcoindnotify"
+	"github.com/sat20-labs/lnd/chainntnfs/btcdnotify"
+	"github.com/sat20-labs/lnd/chainntnfs/neutrinonotify"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/lntest/unittest"
+	"github.com/sat20-labs/lnd/lnutils"
 	"github.com/stretchr/testify/require"
 )
 

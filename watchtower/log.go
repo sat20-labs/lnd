@@ -2,11 +2,11 @@ package watchtower
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/watchtower/lookout"
-	"github.com/lightningnetwork/lnd/watchtower/wtclient"
-	"github.com/lightningnetwork/lnd/watchtower/wtdb"
-	"github.com/lightningnetwork/lnd/watchtower/wtserver"
+	"github.com/sat20-labs/lnd/build"
+	"github.com/sat20-labs/lnd/watchtower/lookout"
+	"github.com/sat20-labs/lnd/watchtower/wtclient"
+	"github.com/sat20-labs/lnd/watchtower/wtdb"
+	"github.com/sat20-labs/lnd/watchtower/wtserver"
 )
 
 // log is a logger that is initialized with no output filters.  This

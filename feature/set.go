@@ -3,7 +3,7 @@ package feature
 import (
 	"math"
 
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // Set is an enum identifying various feature sets, which separates the single

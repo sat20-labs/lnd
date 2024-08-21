@@ -4,9 +4,9 @@ package lnwallet
 
 import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/shachain"
 )
 
 // nextRevocationProducer creates a new revocation producer, deriving the

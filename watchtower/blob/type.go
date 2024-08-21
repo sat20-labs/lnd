@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lightningnetwork/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb"
 )
 
 // Flag represents a specify option that can be present in a Type.

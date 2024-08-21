@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lnwire"
 )
 
 // ErrCorruptedFwdPkg signals that the on-disk structure of the forwarding

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/channeldb/migration12"
-	"github.com/lightningnetwork/lnd/channeldb/migtest"
-	"github.com/lightningnetwork/lnd/kvdb"
-	"github.com/lightningnetwork/lnd/lntypes"
+	"github.com/sat20-labs/lnd/channeldb/migration12"
+	"github.com/sat20-labs/lnd/channeldb/migtest"
+	"github.com/sat20-labs/lnd/kvdb"
+	"github.com/sat20-labs/lnd/lntypes"
 )
 
 var (

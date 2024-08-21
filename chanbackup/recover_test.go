@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/lightningnetwork/lnd/lnencrypt"
+	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/stretchr/testify/require"
 )
 

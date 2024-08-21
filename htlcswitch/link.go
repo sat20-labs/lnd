@@ -14,23 +14,23 @@ import (
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btclog"
-	"github.com/lightningnetwork/lnd/build"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/channeldb/models"
-	"github.com/lightningnetwork/lnd/contractcourt"
-	"github.com/lightningnetwork/lnd/fn"
-	"github.com/lightningnetwork/lnd/htlcswitch/hodl"
-	"github.com/lightningnetwork/lnd/htlcswitch/hop"
-	"github.com/lightningnetwork/lnd/input"
-	"github.com/lightningnetwork/lnd/invoices"
-	"github.com/lightningnetwork/lnd/lnpeer"
-	"github.com/lightningnetwork/lnd/lntypes"
-	"github.com/lightningnetwork/lnd/lnutils"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwallet/chainfee"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/queue"
-	"github.com/lightningnetwork/lnd/ticker"
+	"github.com/sat20-labs/lnd/build"
+	"github.com/sat20-labs/lnd/channeldb"
+	"github.com/sat20-labs/lnd/channeldb/models"
+	"github.com/sat20-labs/lnd/contractcourt"
+	"github.com/sat20-labs/lnd/fn"
+	"github.com/sat20-labs/lnd/htlcswitch/hodl"
+	"github.com/sat20-labs/lnd/htlcswitch/hop"
+	"github.com/sat20-labs/lnd/input"
+	"github.com/sat20-labs/lnd/invoices"
+	"github.com/sat20-labs/lnd/lnpeer"
+	"github.com/sat20-labs/lnd/lntypes"
+	"github.com/sat20-labs/lnd/lnutils"
+	"github.com/sat20-labs/lnd/lnwallet"
+	"github.com/sat20-labs/lnd/lnwallet/chainfee"
+	"github.com/sat20-labs/lnd/lnwire"
+	"github.com/sat20-labs/lnd/queue"
+	"github.com/sat20-labs/lnd/ticker"
 )
 
 func init() {
@@ -1959,7 +1959,7 @@ func (l *channelLink) handleUpstreamMsg(msg lnwire.Message) {
 			// hit this case in situations where we improperly
 			// handle message ordering due to concurrency choices.
 			// An issue has been filed to address this here:
-			// https://github.com/lightningnetwork/lnd/issues/8393
+			// https://github.com/sat20-labs/lnd/issues/8393
 			l.fail(
 				LinkFailureError{
 					code:             ErrInvalidUpdate,

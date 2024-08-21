@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnencrypt"
+	"github.com/sat20-labs/lnd/keychain"
+	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/stretchr/testify/require"
 )
 

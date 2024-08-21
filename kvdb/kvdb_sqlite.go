@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/lightningnetwork/lnd/kvdb/sqlbase"
-	"github.com/lightningnetwork/lnd/kvdb/sqlite"
+	"github.com/sat20-labs/lnd/kvdb/sqlbase"
+	"github.com/sat20-labs/lnd/kvdb/sqlite"
 )
 
 const (
