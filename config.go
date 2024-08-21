@@ -548,24 +548,21 @@ type GRPCConfig struct {
 }
 
 func GetBaseDir() string {
-	// execPath, err := os.Executable()
-	// if err != nil {
-	// 	return "./."
-	// }
-	// return filepath.Dir(execPath)
-	return "/data1/github/lnd"
+    execPath, err := os.Executable()
+    if err != nil {
+        return "./."
+    }
+    execPath = filepath.Dir(execPath)
+    fmt.Printf("%s\n", execPath)
+    if strings.Contains(execPath, "/cmd/lnd") {
+        execPath, _ = strings.CutSuffix(execPath, "/cmd/lnd")
+    }
+    return execPath
+    //return "/data1/github/lnd"
 }
 
 func GetDefaultDir(app string) string {
-	// 正式代码
-	// execPath, err := os.Executable()
-	// if err != nil {
-	// 	return "./." + app
-	// }
-	// return filepath.Dir(execPath) + "/." + app
-
-	// 用于测试
-	return GetBaseDir() + "/." + app
+    return GetBaseDir()+ "/." + app
 }
 
 func GetLndDir() string {
