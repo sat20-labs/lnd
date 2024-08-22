@@ -556,6 +556,8 @@ func GetBaseDir() string {
 	fmt.Printf("%s\n", execPath)
 	if strings.Contains(execPath, "/cmd/lnd") {
 		execPath, _ = strings.CutSuffix(execPath, "/cmd/lnd")
+	} else if strings.Contains(execPath, "/cmd/lncli") {
+		execPath, _ = strings.CutSuffix(execPath, "/cmd/lncli")
 	}
 	return execPath
 	//return "/data1/github/lnd"
