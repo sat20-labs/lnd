@@ -3,11 +3,11 @@ package routing
 import (
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // TestNodeEdgeUnifier tests the composition of unified edges for nodes that

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/fn"
 	"github.com/sat20-labs/lnd/lnwallet"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // htlcOutgoingContestResolver is a ContractResolver that's able to resolve an

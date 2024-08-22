@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/keychain"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

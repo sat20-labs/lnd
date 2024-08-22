@@ -7,6 +7,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
@@ -15,8 +17,6 @@ import (
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testQueryBlindedRoutes tests querying routes to blinded routes. To do this,

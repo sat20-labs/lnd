@@ -1,6 +1,6 @@
 package macaroons
 
-import "github.com/tinyverse-web3/btcwallet/waddrmgr"
+import "github.com/btcsuite/btcwallet/waddrmgr"
 
 func init() {
 	// Below are the reduced scrypt parameters that are used when creating

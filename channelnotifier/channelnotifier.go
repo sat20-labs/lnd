@@ -3,9 +3,9 @@ package channelnotifier
 import (
 	"sync"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/subscribe"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // ChannelNotifier is a subsystem which all active, inactive, and closed channel

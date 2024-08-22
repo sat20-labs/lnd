@@ -3,8 +3,8 @@ package keychain
 import (
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 func BenchmarkDerivePrivKey(t *testing.B) {

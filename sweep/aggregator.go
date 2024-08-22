@@ -3,12 +3,12 @@ package sweep
 import (
 	"sort"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // UtxoAggregator defines an interface that takes a list of inputs and

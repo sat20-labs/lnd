@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
@@ -14,7 +15,6 @@ import (
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

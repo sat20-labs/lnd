@@ -20,8 +20,10 @@ import (
 	"strings"
 	"time"
 
-	//"github.com/tinyverse-web3/btcd/btcutil"
+	//"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/lightninglabs/neutrino"
 	"github.com/sat20-labs/lnd/autopilot"
 	"github.com/sat20-labs/lnd/build"
 	"github.com/sat20-labs/lnd/chainreg"
@@ -43,8 +45,6 @@ import (
 	"github.com/sat20-labs/lnd/routing"
 	"github.com/sat20-labs/lnd/signal"
 	"github.com/sat20-labs/lnd/tor"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/neutrino"
 )
 
 const (
@@ -548,21 +548,21 @@ type GRPCConfig struct {
 }
 
 func GetBaseDir() string {
-    execPath, err := os.Executable()
-    if err != nil {
-        return "./."
-    }
-    execPath = filepath.Dir(execPath)
-    fmt.Printf("%s\n", execPath)
-    if strings.Contains(execPath, "/cmd/lnd") {
-        execPath, _ = strings.CutSuffix(execPath, "/cmd/lnd")
-    }
-    return execPath
-    //return "/data1/github/lnd"
+	execPath, err := os.Executable()
+	if err != nil {
+		return "./."
+	}
+	execPath = filepath.Dir(execPath)
+	fmt.Printf("%s\n", execPath)
+	if strings.Contains(execPath, "/cmd/lnd") {
+		execPath, _ = strings.CutSuffix(execPath, "/cmd/lnd")
+	}
+	return execPath
+	//return "/data1/github/lnd"
 }
 
 func GetDefaultDir(app string) string {
-    return GetBaseDir()+ "/." + app
+	return GetBaseDir() + "/." + app
 }
 
 func GetLndDir() string {
@@ -1798,7 +1798,7 @@ func (c *Config) ImplementationConfig(
 
 // CleanAndExpandPath expands environment variables and leading ~ in the
 // passed path, cleans the result, and returns it.
-// This function is taken from https://github.com/tinyverse-web3/btcd
+// This function is taken from https://github.com/btcsuite/btcd
 func CleanAndExpandPath(path string) string {
 	if path == "" {
 		return ""

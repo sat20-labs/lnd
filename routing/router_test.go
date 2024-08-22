@@ -13,6 +13,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-errors/errors"
 	sphinx "github.com/lightningnetwork/lightning-onion"
@@ -31,11 +36,6 @@ import (
 	"github.com/sat20-labs/lnd/zpay32"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

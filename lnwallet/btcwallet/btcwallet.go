@@ -9,6 +9,22 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/hdkeychain"
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/btcsuite/btcwallet/chain"
+	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/btcsuite/btcwallet/wallet"
+	base "github.com/btcsuite/btcwallet/wallet"
+	"github.com/btcsuite/btcwallet/wallet/txauthor"
+	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/fn"
@@ -17,22 +33,6 @@ import (
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/hdkeychain"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/rpcclient"
-	"github.com/tinyverse-web3/btcd/txscript"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/btcwallet/chain"
-	"github.com/tinyverse-web3/btcwallet/waddrmgr"
-	"github.com/tinyverse-web3/btcwallet/wallet"
-	base "github.com/tinyverse-web3/btcwallet/wallet"
-	"github.com/tinyverse-web3/btcwallet/wallet/txauthor"
-	"github.com/tinyverse-web3/btcwallet/wallet/txrules"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
-	"github.com/tinyverse-web3/btcwallet/wtxmgr"
 )
 
 const (
@@ -1297,7 +1297,7 @@ func (b *BtcWallet) PublishTransaction(tx *wire.MsgTx, label string) error {
 
 	//nolint:lll
 	// These two errors are ignored inside `PublishTransaction`:
-	// https://github.com/tinyverse-web3/btcd/blob/master/wallet/wallet.go#L3763
+	// https://github.com/btcsuite/btcwallet/blob/master/wallet/wallet.go#L3763
 	// To keep our current behavior, we need to ignore the same errors
 	// returned from TestMempoolAccept.
 	//

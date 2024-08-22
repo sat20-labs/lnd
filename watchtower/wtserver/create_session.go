@@ -1,11 +1,11 @@
 package wtserver
 
 import (
+	"github.com/btcsuite/btcd/txscript"
 	"github.com/sat20-labs/lnd/watchtower/blob"
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/sat20-labs/lnd/watchtower/wtwire"
-	"github.com/tinyverse-web3/btcd/txscript"
 )
 
 // handleCreateSession processes a CreateSession message from the peer, and returns

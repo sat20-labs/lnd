@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // TestEncryptDecryptPayload tests that given a static key, we're able to

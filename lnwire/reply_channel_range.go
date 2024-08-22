@@ -7,8 +7,8 @@ import (
 	"math"
 	"sort"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/tlv"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // ReplyChannelRange is the response to the QueryChannelRange message. It

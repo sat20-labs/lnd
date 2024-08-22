@@ -3,11 +3,11 @@ package lnpeer
 import (
 	"net"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // NewChannel is a newly funded channel. This struct couples a channel along

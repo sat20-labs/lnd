@@ -6,6 +6,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2/schnorr"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/hdkeychain"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -14,13 +21,6 @@ import (
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/hdkeychain"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/txscript"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/btcwallet/waddrmgr"
 )
 
 const (

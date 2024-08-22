@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"path/filepath"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb/sqlbase"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 	_ "modernc.org/sqlite" // Register relevant drivers.
 )
 

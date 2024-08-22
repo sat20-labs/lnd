@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/discovery"
@@ -13,7 +14,6 @@ import (
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // Manager manages the node's local channels. The only operation that is

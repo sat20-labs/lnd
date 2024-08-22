@@ -5,6 +5,8 @@ import (
 	"math"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/contractcourt"
 	"github.com/sat20-labs/lnd/fn"
 	"github.com/sat20-labs/lnd/lncfg"
@@ -20,8 +22,6 @@ import (
 	"github.com/sat20-labs/lnd/routing"
 	"github.com/sat20-labs/lnd/sweep"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // testSweepCPFPAnchorOutgoingTimeout checks when a channel is force closed by

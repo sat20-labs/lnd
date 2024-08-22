@@ -3,11 +3,11 @@ package peer
 import (
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chancloser"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr/musig2"
 )
 
 // MusigChanCloser is an adapter over the normal channel state machine that

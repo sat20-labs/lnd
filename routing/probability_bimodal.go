@@ -5,10 +5,10 @@ import (
 	"math"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

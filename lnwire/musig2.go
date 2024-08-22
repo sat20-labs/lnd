@@ -3,8 +3,8 @@ package lnwire
 import (
 	"io"
 
+	"github.com/btcsuite/btcd/btcec/v2/schnorr/musig2"
 	"github.com/sat20-labs/lnd/tlv"
-	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr/musig2"
 )
 
 // NonceRecordTypeT is the TLV type used to encode a local musig2 nonce.

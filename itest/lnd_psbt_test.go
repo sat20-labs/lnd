@@ -6,6 +6,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/btcec/v2/schnorr"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/hdkeychain"
+	"github.com/btcsuite/btcd/btcutil/psbt"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/keychain"
@@ -16,15 +25,6 @@ import (
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lnwallet/chanfunding"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
-	"github.com/tinyverse-web3/btcd/btcec/v2/schnorr"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/hdkeychain"
-	"github.com/tinyverse-web3/btcd/btcutil/psbt"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/txscript"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // testPsbtChanFunding makes sure a channel can be opened between carol and dave

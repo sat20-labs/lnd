@@ -5,7 +5,7 @@ TOOLS_DIR := tools
 
 PREFIX ?= /usr/local
 
-BTCD_PKG := github.com/tinyverse-web3/btcd
+BTCD_PKG := github.com/btcsuite/btcd
 GOACC_PKG := github.com/ory/go-acc
 GOIMPORTS_PKG := github.com/rinchsan/gosimports/cmd/gosimports
 

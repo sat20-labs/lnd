@@ -3,14 +3,14 @@ package lntest
 import (
 	"fmt"
 
+	"github.com/btcsuite/btcd/blockchain"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lntest/miner"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/blockchain"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // Miner returns the miner instance.

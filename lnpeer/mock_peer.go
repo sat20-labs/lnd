@@ -3,10 +3,10 @@ package lnpeer
 import (
 	"net"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/mock"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // MockPeer implements the `lnpeer.Peer` interface.

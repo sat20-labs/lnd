@@ -3,8 +3,8 @@ package mock
 import (
 	"sync"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chainntnfs"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // SpendNotifier extends the mock.ChainNotifier so that spend

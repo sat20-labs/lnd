@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 var (

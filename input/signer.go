@@ -1,7 +1,7 @@
 package input
 
 import (
-	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/btcsuite/btcd/wire"
 )
 
 // Signer represents an abstract object capable of generating raw signatures as

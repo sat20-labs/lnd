@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/btcsuite/btcd/wire"
 )
 
 func TestTxOutSerialization(t *testing.T) {

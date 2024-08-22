@@ -8,12 +8,12 @@ import (
 	"net"
 	"sync"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/fn"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tlv"
 	"github.com/sat20-labs/lnd/watchtower/blob"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 var (

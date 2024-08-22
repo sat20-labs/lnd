@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"errors"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/watchtower/blob"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 var (

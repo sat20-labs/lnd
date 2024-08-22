@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

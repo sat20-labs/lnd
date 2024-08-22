@@ -9,10 +9,10 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/sat20-labs/lnd/keychain"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 var (

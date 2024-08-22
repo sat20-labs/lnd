@@ -3,10 +3,10 @@ package itest
 import (
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/funding"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lnwallet"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testMaxChannelSize tests that lnd handles --maxchansize parameter correctly.

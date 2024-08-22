@@ -6,10 +6,10 @@ import (
 	"path"
 	"testing"
 
+	"github.com/btcsuite/btcwallet/snacl"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcwallet/snacl"
 )
 
 var (

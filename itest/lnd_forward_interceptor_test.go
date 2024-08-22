@@ -5,6 +5,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
@@ -14,7 +15,6 @@ import (
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

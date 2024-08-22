@@ -1,14 +1,14 @@
 package blockcache
 
 import (
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/lightninglabs/neutrino"
+	"github.com/lightninglabs/neutrino/cache"
+	"github.com/lightninglabs/neutrino/cache/lru"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/multimutex"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/neutrino"
-	"github.com/tinyverse-web3/neutrino/cache"
-	"github.com/tinyverse-web3/neutrino/cache/lru"
 )
 
 // BlockCache is an lru cache for blocks.

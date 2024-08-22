@@ -11,6 +11,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/chainntnfs"
@@ -26,7 +27,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/ticker"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 var zeroCircuit = models.CircuitKey{}

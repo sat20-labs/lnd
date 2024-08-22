@@ -11,6 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/fn"
@@ -22,8 +24,6 @@ import (
 	"github.com/sat20-labs/lnd/routing"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/zpay32"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/wire"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

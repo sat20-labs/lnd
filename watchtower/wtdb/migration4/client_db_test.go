@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/channeldb/migtest"
 	"github.com/sat20-labs/lnd/kvdb"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 var (

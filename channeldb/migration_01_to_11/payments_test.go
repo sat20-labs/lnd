@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 var (

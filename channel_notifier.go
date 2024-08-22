@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/chanbackup"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channelnotifier"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // addrSource is an interface that allow us to get the addresses for a target

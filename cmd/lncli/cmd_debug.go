@@ -10,10 +10,10 @@ import (
 	"os"
 
 	"github.com/andybalholm/brotli"
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd"
 	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/sat20-labs/lnd/lnrpc"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 	"github.com/urfave/cli"
 	"google.golang.org/protobuf/proto"
 )

@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tor"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // TCPResolver is a function signature that resolves an address on a given

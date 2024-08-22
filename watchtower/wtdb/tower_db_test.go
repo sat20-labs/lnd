@@ -5,6 +5,7 @@ import (
 	"encoding/binary"
 	"testing"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/watchtower"
@@ -13,7 +14,6 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/wtmock"
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 var (

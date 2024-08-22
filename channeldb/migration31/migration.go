@@ -3,8 +3,8 @@ package migration31
 import (
 	"errors"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 // DeleteLastPublishedTxTLB deletes the top level bucket with the key

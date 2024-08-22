@@ -3,7 +3,7 @@ package netann
 import (
 	"time"
 
-	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/btcsuite/btcd/wire"
 )
 
 // ChanStatus is a type that enumerates the possible states a ChanStatusManager

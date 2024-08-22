@@ -5,10 +5,10 @@ import (
 	"net"
 	"sync"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lnpeer"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // mockPeer implements the lnpeer.Peer interface and is used to test the

@@ -3,10 +3,10 @@ package input
 import (
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lntypes"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/txscript"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // EmptyOutPoint is a zeroed outpoint.

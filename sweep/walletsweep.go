@@ -6,15 +6,15 @@ import (
 	"math"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/sat20-labs/lnd/fn"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/sat20-labs/lnd/lnwallet/chanfunding"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/txscript"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/btcwallet/wtxmgr"
 	"golang.org/x/exp/maps"
 )
 

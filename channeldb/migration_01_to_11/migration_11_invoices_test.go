@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	bitcoinCfg "github.com/btcsuite/btcd/chaincfg"
 	litecoinCfg "github.com/ltcsuite/ltcd/chaincfg"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/zpay32"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
-	bitcoinCfg "github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 var (

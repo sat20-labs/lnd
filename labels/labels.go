@@ -17,8 +17,8 @@ package labels
 import (
 	"fmt"
 
+	"github.com/btcsuite/btcwallet/wtxmgr"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcwallet/wtxmgr"
 )
 
 // External labels a transaction as user initiated via the api. This

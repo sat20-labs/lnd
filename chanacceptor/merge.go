@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

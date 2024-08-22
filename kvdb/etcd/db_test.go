@@ -8,8 +8,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 // TestDump tests that the Dump() method creates a one-to-one copy of the

@@ -1,6 +1,6 @@
 package postgres
 
-import "github.com/tinyverse-web3/btcwallet/walletdb"
+import "github.com/btcsuite/btcwallet/walletdb"
 
 type Fixture interface {
 	DB() walletdb.DB

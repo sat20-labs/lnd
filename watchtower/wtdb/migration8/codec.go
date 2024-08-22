@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/tlv"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // BreachHintSize is the length of the identifier used to detect remote

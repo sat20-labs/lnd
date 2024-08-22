@@ -8,7 +8,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/lightninglabs/neutrino/cache"
+	"github.com/lightninglabs/neutrino/cache/lru"
 	"github.com/sat20-labs/lnd/batch"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/channeldb"
@@ -24,13 +31,6 @@ import (
 	"github.com/sat20-labs/lnd/netann"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/ticker"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/neutrino/cache"
-	"github.com/tinyverse-web3/neutrino/cache/lru"
 	"golang.org/x/time/rate"
 )
 

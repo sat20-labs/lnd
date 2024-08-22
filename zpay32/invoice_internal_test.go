@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/bech32"
+	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/bech32"
-	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // TestDecodeAmount ensures that the amount string in the hrp of the Invoice

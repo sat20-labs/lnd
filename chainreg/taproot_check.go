@@ -3,7 +3,7 @@ package chainreg
 import (
 	"encoding/json"
 
-	"github.com/tinyverse-web3/btcd/rpcclient"
+	"github.com/btcsuite/btcd/rpcclient"
 )
 
 // backendSupportsTaproot returns true if the backend understands the taproot

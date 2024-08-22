@@ -5,8 +5,8 @@ package postgres
 import (
 	"context"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb/sqlbase"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 // sqliteCmdReplacements defines a mapping from some SQLite keywords and phrases

@@ -1,8 +1,8 @@
 package hop
 
 import (
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // ForwardingInfo contains all the information that is necessary to forward and

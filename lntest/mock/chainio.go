@@ -1,9 +1,9 @@
 package mock
 
 import (
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 )
 
 // ChainIO is a mock implementation of the BlockChainIO interface.

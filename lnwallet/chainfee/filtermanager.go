@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/sat20-labs/lnd/fn"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/rpcclient"
 )
 
 const (

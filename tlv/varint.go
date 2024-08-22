@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/tinyverse-web3/btcd/wire"
+	"github.com/btcsuite/btcd/wire"
 )
 
 // ErrVarIntNotCanonical signals that the decoded varint was not minimally encoded.

@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/bech32"
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/bech32"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // Encode takes the given MessageSigner and returns a string encoding this

@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-errors/errors"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	"github.com/sat20-labs/lnd/kvdb"
 	"github.com/sat20-labs/lnd/lntypes"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // TestPaymentStatusesMigration checks that already completed payments will have

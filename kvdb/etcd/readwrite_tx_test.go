@@ -7,8 +7,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 func TestChangeDuringManualTx(t *testing.T) {

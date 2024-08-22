@@ -3,9 +3,9 @@ package input
 import (
 	"errors"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/txscript"
 	"github.com/sat20-labs/lnd/lnutils"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/txscript"
 )
 
 // ErrUnknownScriptType is returned when an unknown script type is encountered.

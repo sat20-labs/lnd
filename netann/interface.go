@@ -1,9 +1,9 @@
 package netann
 
 import (
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // DB abstracts the required database functionality needed by the

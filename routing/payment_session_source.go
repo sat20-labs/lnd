@@ -1,12 +1,12 @@
 package routing
 
 import (
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/zpay32"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // A compile time assertion to ensure MissionControl meets the

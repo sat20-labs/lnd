@@ -4,6 +4,7 @@ import (
 	"context"
 	"io"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
 	"github.com/sat20-labs/lnd/htlcswitch/hop"
@@ -13,7 +14,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/sweep"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // Registry is an interface which represents the invoice registry.

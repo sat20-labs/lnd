@@ -7,6 +7,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/davecgh/go-spew/spew"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	"github.com/sat20-labs/lnd/channeldb/migration21/common"
@@ -14,10 +18,6 @@ import (
 	"github.com/sat20-labs/lnd/channeldb/migration21/legacy"
 	"github.com/sat20-labs/lnd/channeldb/migtest"
 	"github.com/sat20-labs/lnd/kvdb"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

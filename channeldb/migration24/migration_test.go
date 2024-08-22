@@ -9,14 +9,14 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	mig "github.com/sat20-labs/lnd/channeldb/migration_01_to_11"
 	"github.com/sat20-labs/lnd/channeldb/migtest"
 	"github.com/sat20-labs/lnd/kvdb"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

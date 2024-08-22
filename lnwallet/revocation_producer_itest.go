@@ -3,10 +3,10 @@
 package lnwallet
 
 import (
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/shachain"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // nextRevocationProducer creates a new revocation producer, deriving the

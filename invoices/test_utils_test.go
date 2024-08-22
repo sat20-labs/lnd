@@ -11,6 +11,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/clock"
 	invpkg "github.com/sat20-labs/lnd/invoices"
@@ -19,10 +23,6 @@ import (
 	"github.com/sat20-labs/lnd/record"
 	"github.com/sat20-labs/lnd/zpay32"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 type mockPayload struct {

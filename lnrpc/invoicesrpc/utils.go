@@ -4,12 +4,12 @@ import (
 	"encoding/hex"
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/sat20-labs/lnd/invoices"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/zpay32"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // decodePayReq decodes the invoice payment request if present. This is needed,

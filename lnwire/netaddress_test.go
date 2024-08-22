@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 func TestNetAddressDisplay(t *testing.T) {

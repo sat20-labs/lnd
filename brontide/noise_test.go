@@ -10,11 +10,11 @@ import (
 	"testing"
 	"testing/iotest"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 type maybeNetConn struct {

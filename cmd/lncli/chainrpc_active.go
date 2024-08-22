@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lnrpc/chainrpc"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 	"github.com/urfave/cli"
 )
 

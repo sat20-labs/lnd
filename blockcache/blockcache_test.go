@@ -6,12 +6,12 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/lightninglabs/neutrino"
+	"github.com/lightninglabs/neutrino/cache"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/neutrino"
-	"github.com/tinyverse-web3/neutrino/cache"
 )
 
 type mockChainBackend struct {

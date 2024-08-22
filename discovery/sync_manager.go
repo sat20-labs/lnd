@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/lnpeer"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/ticker"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 const (

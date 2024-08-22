@@ -3,7 +3,7 @@ package wtdb
 import (
 	"encoding/hex"
 
-	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2"
 )
 
 // SessionIDSize is 33-bytes; it is a serialized, compressed public key.

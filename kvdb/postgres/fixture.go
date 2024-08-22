@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	embeddedpostgres "github.com/fergusstrange/embedded-postgres"
 	"github.com/sat20-labs/lnd/kvdb/sqlbase"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

@@ -3,8 +3,8 @@
 package btcwallet
 
 import (
-	"github.com/tinyverse-web3/btcwallet/snacl"
-	"github.com/tinyverse-web3/btcwallet/waddrmgr"
+	"github.com/btcsuite/btcwallet/snacl"
+	"github.com/btcsuite/btcwallet/waddrmgr"
 )
 
 func init() {

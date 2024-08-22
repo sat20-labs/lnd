@@ -4,12 +4,12 @@
 package invoicesrpc
 
 import (
+	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/invoices"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/sat20-labs/lnd/netann"
-	"github.com/tinyverse-web3/btcd/chaincfg"
 )
 
 // Config is the primary configuration struct for the invoices RPC server. It

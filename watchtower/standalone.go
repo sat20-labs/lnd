@@ -4,12 +4,12 @@ import (
 	"net"
 	"sync/atomic"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/brontide"
 	"github.com/sat20-labs/lnd/lnencrypt"
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/sat20-labs/lnd/watchtower/lookout"
 	"github.com/sat20-labs/lnd/watchtower/wtserver"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // Standalone encapsulates the server-side functionality required by watchtower

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tinyverse-web3/btcwallet/walletdb"
+	"github.com/btcsuite/btcwallet/walletdb"
 )
 
 const (

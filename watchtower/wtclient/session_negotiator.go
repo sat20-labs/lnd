@@ -6,6 +6,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btclog"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwire"
@@ -14,7 +15,6 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
 	"github.com/sat20-labs/lnd/watchtower/wtserver"
 	"github.com/sat20-labs/lnd/watchtower/wtwire"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // SessionNegotiator is an interface for asynchronously requesting new sessions.

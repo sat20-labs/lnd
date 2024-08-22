@@ -4,6 +4,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/chainrpc"
 	"github.com/sat20-labs/lnd/lnrpc/invoicesrpc"
@@ -16,7 +17,6 @@ import (
 	"github.com/sat20-labs/lnd/lnrpc/wtclientrpc"
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/wire"
 	"google.golang.org/grpc"
 )
 

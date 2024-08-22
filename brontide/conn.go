@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/tor"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // Conn is an implementation of net.Conn which enforces an authenticated key

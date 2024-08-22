@@ -7,6 +7,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channelnotifier"
@@ -18,8 +20,6 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/blob"
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/sat20-labs/lnd/watchtower/wtpolicy"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // ClientManager is the primary interface used by the daemon to control a

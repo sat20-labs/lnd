@@ -3,11 +3,11 @@ package routing
 import (
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/htlcswitch"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // TestBandwidthManager tests getting of bandwidth hints from a bandwidth

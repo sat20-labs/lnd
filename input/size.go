@@ -1,11 +1,11 @@
 package input
 
 import (
+	"github.com/btcsuite/btcd/blockchain"
+	"github.com/btcsuite/btcd/txscript"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/sat20-labs/lnd/lntypes"
-	"github.com/tinyverse-web3/btcd/blockchain"
-	"github.com/tinyverse-web3/btcd/txscript"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/btcwallet/waddrmgr"
 )
 
 const (

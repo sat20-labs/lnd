@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/sat20-labs/lnd/sweep"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

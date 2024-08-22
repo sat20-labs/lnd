@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb/etcd"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 var (

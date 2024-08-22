@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testTrackPayments tests whether a client that calls the TrackPayments api

@@ -6,13 +6,13 @@ import (
 	"io"
 	"net"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/shachain"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // WriteOutpoint writes an outpoint to the passed writer using the minimal

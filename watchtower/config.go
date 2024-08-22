@@ -5,12 +5,12 @@ import (
 	"net"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/tor"
 	"github.com/sat20-labs/lnd/watchtower/lookout"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

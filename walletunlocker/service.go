@@ -8,6 +8,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil/hdkeychain"
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcwallet/waddrmgr"
+	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/aezeed"
 	"github.com/sat20-labs/lnd/chanbackup"
 	"github.com/sat20-labs/lnd/keychain"
@@ -16,10 +20,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/btcwallet"
 	"github.com/sat20-labs/lnd/macaroons"
-	"github.com/tinyverse-web3/btcd/btcutil/hdkeychain"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcwallet/waddrmgr"
-	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 var (

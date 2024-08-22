@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/amp"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -14,7 +15,6 @@ import (
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testSendPaymentAMPInvoice tests that we can send an AMP payment to a

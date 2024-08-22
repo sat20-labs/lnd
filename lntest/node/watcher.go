@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lntest/rpc"
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/sat20-labs/lnd/lnutils"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 type chanWatchType uint8

@@ -3,7 +3,7 @@ package autopilot
 import (
 	"fmt"
 
-	"github.com/tinyverse-web3/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil"
 )
 
 // WeightedHeuristic is a tuple that associates a weight to an

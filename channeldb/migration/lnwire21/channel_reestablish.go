@@ -3,7 +3,7 @@ package lnwire
 import (
 	"io"
 
-	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2"
 )
 
 // ChannelReestablish is a message sent between peers that have an existing

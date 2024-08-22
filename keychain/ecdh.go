@@ -3,7 +3,7 @@ package keychain
 import (
 	"crypto/sha256"
 
-	"github.com/tinyverse-web3/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcec/v2"
 )
 
 // NewPubKeyECDH wraps the given key of the key ring so it adheres to the

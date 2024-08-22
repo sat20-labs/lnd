@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	lnwire "github.com/sat20-labs/lnd/channeldb/migration/lnwire21"
 	"github.com/sat20-labs/lnd/kvdb"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // MigrateNodeAndEdgeUpdateIndex is a migration function that will update the

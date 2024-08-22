@@ -3,9 +3,9 @@ package routing
 import (
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // Estimator estimates the probability to reach a node.

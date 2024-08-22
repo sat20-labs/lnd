@@ -1,8 +1,8 @@
 package lookout
 
 import (
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/labels"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // PunisherConfig houses the resources required by the Punisher.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 )
 
 // ChanUpdateMsgFlags is a bitfield that signals whether optional fields are

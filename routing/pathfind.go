@@ -9,6 +9,7 @@ import (
 	"sort"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/channeldb/models"
@@ -18,7 +19,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/record"
 	"github.com/sat20-labs/lnd/routing/route"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 const (

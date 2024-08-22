@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/sqldb"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

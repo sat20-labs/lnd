@@ -4,14 +4,14 @@
 package walletrpc
 
 import (
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/sat20-labs/lnd/lnwallet/chainfee"
 	"github.com/sat20-labs/lnd/macaroons"
 	"github.com/sat20-labs/lnd/sweep"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcwallet/wallet"
 )
 
 const (

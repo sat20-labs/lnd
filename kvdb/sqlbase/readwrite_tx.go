@@ -7,7 +7,7 @@ import (
 	"database/sql"
 	"sync"
 
-	"github.com/tinyverse-web3/btcwallet/walletdb"
+	"github.com/btcsuite/btcwallet/walletdb"
 )
 
 // readWriteTx holds a reference to an open postgres transaction.

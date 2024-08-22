@@ -7,10 +7,10 @@ import (
 	"os"
 	"sync"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnutils"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // Swapper is an interface that allows the chanbackup.SubSwapper to update the

@@ -1,9 +1,9 @@
 package sweep
 
 import (
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/lnwallet"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 // Wallet contains all wallet related functionality required by sweeper.

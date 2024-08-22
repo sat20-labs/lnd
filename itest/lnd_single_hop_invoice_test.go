@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/hex"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 	"github.com/sat20-labs/lnd/lntest"
@@ -11,7 +12,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/record"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 func testSingleHopInvoice(ht *lntest.HarnessTest) {

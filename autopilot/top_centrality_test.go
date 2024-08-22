@@ -3,9 +3,9 @@ package autopilot
 import (
 	"testing"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testTopCentrality is subtest helper to which given the passed graph and

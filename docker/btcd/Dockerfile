@@ -5,13 +5,13 @@ LABEL maintainer="Olaoluwa Osuntokun <laolu@lightning.engineering>"
 # Install build dependencies such as git and glide.
 RUN apk add --no-cache git gcc musl-dev
 
-WORKDIR $GOPATH/src/github.com/tinyverse-web3/btcd
+WORKDIR $GOPATH/src/github.com/btcsuite/btcd
 
 # Pin down btcd to a version that we know works with lnd.
 ARG BTCD_VERSION=v0.23.4
 
 # Grab and install the latest version of of btcd and all related dependencies.
-RUN git clone https://github.com/tinyverse-web3/btcd.git . \
+RUN git clone https://github.com/btcsuite/btcd.git . \
     && git checkout $BTCD_VERSION \
     && go install -v . ./cmd/...
 
@@ -43,13 +43,13 @@ COPY "start-btcd.sh" .
 RUN apk add --no-cache \
     bash \
     ca-certificates \
-    &&  mkdir "/rpc" "/root/.btcd" "/root/.btcctl" \
-    &&  touch "/root/.btcd/btcd.conf" \
-    &&  chmod +x start-btcctl.sh \
-    &&  chmod +x start-btcd.sh \
-    # Manually generate certificate and add all domains, it is needed to connect
-    # "btcctl" and "lnd" to "btcd" over docker links.
-    && "/bin/gencerts" --host="*" --directory="/rpc" --force
+&&  mkdir "/rpc" "/root/.btcd" "/root/.btcctl" \
+&&  touch "/root/.btcd/btcd.conf" \
+&&  chmod +x start-btcctl.sh \
+&&  chmod +x start-btcd.sh \
+# Manually generate certificate and add all domains, it is needed to connect
+# "btcctl" and "lnd" to "btcd" over docker links.
+&& "/bin/gencerts" --host="*" --directory="/rpc" --force
 
 # Create a volume to house pregenerated RPC credentials. This will be
 # shared with any lnd, btcctl containers so they can securely query btcd's RPC

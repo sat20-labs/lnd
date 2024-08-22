@@ -1,13 +1,13 @@
 package itest
 
 import (
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/chainreg"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/routerrpc"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 func testMultiHopPayments(ht *lntest.HarnessTest) {

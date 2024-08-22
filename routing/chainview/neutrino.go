@@ -5,15 +5,15 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/gcs/builder"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/btcsuite/btcd/wire"
+	"github.com/lightninglabs/neutrino"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/lntypes"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/gcs/builder"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/rpcclient"
-	"github.com/tinyverse-web3/btcd/wire"
-	"github.com/tinyverse-web3/neutrino"
 )
 
 // CfFilteredChainView is an implementation of the FilteredChainView interface

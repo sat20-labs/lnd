@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"io"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/sat20-labs/lnd/shachain"
 	"github.com/stretchr/testify/mock"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // mockStore mocks the shachain.Store.

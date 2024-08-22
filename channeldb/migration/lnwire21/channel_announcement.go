@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 )
 
 // ChannelAnnouncement message is used to announce the existence of a channel

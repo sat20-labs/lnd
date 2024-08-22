@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/davecgh/go-spew/spew"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/channeldb"
@@ -15,7 +16,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/routing/shards"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
 )
 
 // ErrPaymentLifecycleExiting is used when waiting for htlc attempt result, but

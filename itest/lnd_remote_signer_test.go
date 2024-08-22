@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/hdkeychain"
+	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/sat20-labs/lnd/keychain"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/signrpc"
@@ -11,9 +14,6 @@ import (
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/btcutil/hdkeychain"
-	"github.com/tinyverse-web3/btcwallet/waddrmgr"
 )
 
 var (

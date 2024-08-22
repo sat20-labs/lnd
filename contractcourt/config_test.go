@@ -3,8 +3,8 @@ package contractcourt
 import (
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // TestBudgetConfigValidate checks that the budget config validation works as

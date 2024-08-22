@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/namespace"
 )

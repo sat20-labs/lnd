@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/sat20-labs/lnd/kvdb/sqlbase"
 	"github.com/sat20-labs/lnd/kvdb/sqlite"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
 )
 
 const (

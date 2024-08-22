@@ -9,6 +9,10 @@ import (
 	math "math"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcd/wire"
 	sphinx "github.com/lightningnetwork/lightning-onion"
 	"github.com/sat20-labs/lnd/channeldb"
 	"github.com/sat20-labs/lnd/feature"
@@ -21,10 +25,6 @@ import (
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/subscribe"
 	"github.com/sat20-labs/lnd/zpay32"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (

@@ -9,6 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/wire"
 	"github.com/go-errors/errors"
 	"github.com/sat20-labs/lnd/batch"
 	"github.com/sat20-labs/lnd/chainntnfs"
@@ -25,9 +28,6 @@ import (
 	"github.com/sat20-labs/lnd/routing/chainview"
 	"github.com/sat20-labs/lnd/routing/route"
 	"github.com/sat20-labs/lnd/ticker"
-	"github.com/tinyverse-web3/btcd/btcec/v2"
-	"github.com/tinyverse-web3/btcd/btcutil"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 const (
@@ -1236,8 +1236,8 @@ func (b *Builder) processUpdate(msg interface{},
 			// attempt to string match for the relevant errors.
 			//
 			// * btcd:
-			//    * https://github.com/tinyverse-web3/btcd/blob/master/rpcserver.go#L1316
-			//    * https://github.com/tinyverse-web3/btcd/blob/master/rpcserver.go#L1086
+			//    * https://github.com/btcsuite/btcd/blob/master/rpcserver.go#L1316
+			//    * https://github.com/btcsuite/btcd/blob/master/rpcserver.go#L1086
 			// * bitcoind:
 			//    * https://github.com/bitcoin/bitcoin/blob/7fcf53f7b4524572d1d0c9a5fdc388e87eb02416/src/rpc/blockchain.cpp#L770
 			//     * https://github.com/bitcoin/bitcoin/blob/7fcf53f7b4524572d1d0c9a5fdc388e87eb02416/src/rpc/blockchain.cpp#L954

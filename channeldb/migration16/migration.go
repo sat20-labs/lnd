@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/kvdb"
-	"github.com/tinyverse-web3/btcd/wire"
 )
 
 var (

@@ -13,6 +13,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/btcsuite/btcwallet/chain"
+	"github.com/lightninglabs/neutrino"
 	"github.com/sat20-labs/lnd/blockcache"
 	"github.com/sat20-labs/lnd/chainntnfs"
 	"github.com/sat20-labs/lnd/chainntnfs/bitcoindnotify"
@@ -29,10 +33,6 @@ import (
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/sat20-labs/lnd/routing/chainview"
 	"github.com/sat20-labs/lnd/walletunlocker"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
-	"github.com/tinyverse-web3/btcd/rpcclient"
-	"github.com/tinyverse-web3/btcwallet/chain"
-	"github.com/tinyverse-web3/neutrino"
 )
 
 // Config houses necessary fields that a chainControl instance needs to

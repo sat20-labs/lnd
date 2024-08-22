@@ -3,8 +3,8 @@ package models
 import (
 	"time"
 
+	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/sat20-labs/lnd/lnwire"
-	"github.com/tinyverse-web3/btcd/btcec/v2/ecdsa"
 )
 
 // ChannelEdgePolicy represents a *directed* edge within the channel graph. For

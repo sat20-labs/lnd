@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/btcsuite/btcd/chaincfg"
+	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lntest/port"
-	"github.com/tinyverse-web3/btcd/chaincfg"
-	"github.com/tinyverse-web3/btcd/rpcclient"
 )
 
 // logDirPattern is the pattern of the name of the temporary log directory.

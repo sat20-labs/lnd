@@ -8,6 +8,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/lncfg"
 	"github.com/sat20-labs/lnd/lnrpc"
@@ -20,7 +21,6 @@ import (
 	"github.com/sat20-labs/lnd/lntypes"
 	"github.com/sat20-labs/lnd/lnwire"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 // testPaymentSucceededHTLCRemoteSwept checks that when an outgoing HTLC is

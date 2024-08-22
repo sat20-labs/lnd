@@ -7,7 +7,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tinyverse-web3/btcwallet/walletdb/walletdbtest"
+	"github.com/btcsuite/btcwallet/walletdb/walletdbtest"
 )
 
 // TestWalletDBInterface performs the WalletDB interface test suite for the

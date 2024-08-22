@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/sat20-labs/lnd/lnrpc"
 	"github.com/sat20-labs/lnd/lnrpc/walletrpc"
 	"github.com/sat20-labs/lnd/lntest"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lnwallet"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/btcutil"
 )
 
 type chanFundUtxoSelectionTestCase struct {

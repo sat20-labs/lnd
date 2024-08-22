@@ -6,6 +6,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btclog"
 	"github.com/sat20-labs/lnd/input"
 	"github.com/sat20-labs/lnd/keychain"
@@ -13,7 +14,6 @@ import (
 	"github.com/sat20-labs/lnd/watchtower/wtdb"
 	"github.com/sat20-labs/lnd/watchtower/wtserver"
 	"github.com/sat20-labs/lnd/watchtower/wtwire"
-	"github.com/tinyverse-web3/btcd/chaincfg/chainhash"
 )
 
 // sessionQueueStatus is an enum that signals how full a particular session is.

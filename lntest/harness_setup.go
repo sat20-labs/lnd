@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/btcsuite/btcd/integration/rpctest"
 	"github.com/sat20-labs/lnd/lntest/miner"
 	"github.com/sat20-labs/lnd/lntest/node"
 	"github.com/sat20-labs/lnd/lntest/wait"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcd/integration/rpctest"
 )
 
 // SetupHarness creates a new HarnessTest with a series of setups such that the

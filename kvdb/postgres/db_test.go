@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/btcsuite/btcwallet/walletdb/walletdbtest"
 	"github.com/stretchr/testify/require"
-	"github.com/tinyverse-web3/btcwallet/walletdb"
-	"github.com/tinyverse-web3/btcwallet/walletdb/walletdbtest"
 	"golang.org/x/net/context"
 )
 

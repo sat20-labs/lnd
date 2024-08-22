@@ -1,9 +1,9 @@
 package chainreg
 
 import (
+	bitcoinCfg "github.com/btcsuite/btcd/chaincfg"
+	bitcoinWire "github.com/btcsuite/btcd/wire"
 	"github.com/sat20-labs/lnd/keychain"
-	bitcoinCfg "github.com/tinyverse-web3/btcd/chaincfg"
-	bitcoinWire "github.com/tinyverse-web3/btcd/wire"
 )
 
 // BitcoinNetParams couples the p2p parameters of a network with the

@@ -1,6 +1,6 @@
 package macaroons
 
-import "github.com/tinyverse-web3/btcwallet/snacl"
+import "github.com/btcsuite/btcwallet/snacl"
 
 var (
 	// Below are the default scrypt parameters that are used when creating
