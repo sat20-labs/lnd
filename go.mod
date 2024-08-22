@@ -1,9 +1,9 @@
 module github.com/sat20-labs/lnd
 
 // custom versions that add testnet4 support
-replace github.com/btcsuite/btcd => github.com/impa10r/btcd v0.0.0-20240803152009-0816848dca62
+replace github.com/btcsuite/btcd => github.com/sat20-labs/btcd v0.24.3
 
-replace github.com/btcsuite/btcwallet => github.com/impa10r/btcwallet v0.16.10-0.20240803162513-2421774ce9e3
+replace github.com/btcsuite/btcwallet => github.com/sat20-labs/btcwallet v0.16.11
 
 // local dev versions
 //replace github.com/btcsuite/btcd => ./../btcd
