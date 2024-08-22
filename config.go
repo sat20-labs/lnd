@@ -12,7 +12,7 @@ import (
 	"net"
 	"os"
 
-	//"os/user"
+	"os/user"
 	"path/filepath"
 	"reflect"
 	"regexp"
@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	//"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/lightninglabs/neutrino"
@@ -256,8 +256,7 @@ var (
 	//   C:\Users\<username>\AppData\Local\Lnd on Windows
 	//   ~/.lnd on Linux
 	//   ~/Library/Application Support/Lnd on MacOS
-	//DefaultLndDir = btcutil.AppDataDir("lnd", false)
-	DefaultLndDir = GetLndDir()
+	DefaultLndDir = btcutil.AppDataDir("lnd", false)
 
 	// DefaultConfigFile is the default full path of lnd's configuration
 	// file.
@@ -272,10 +271,10 @@ var (
 	defaultTLSKeyPath     = filepath.Join(DefaultLndDir, defaultTLSKeyFilename)
 	defaultLetsEncryptDir = filepath.Join(DefaultLndDir, defaultLetsEncryptDirname)
 
-	defaultBtcdDir         = GetDefaultDir(btcdBackendName) // btcutil.AppDataDir(btcdBackendName, false)
+	defaultBtcdDir         = btcutil.AppDataDir(btcdBackendName, false)
 	defaultBtcdRPCCertFile = filepath.Join(defaultBtcdDir, "rpc.cert")
 
-	defaultBitcoindDir = GetDefaultDir(BitcoinChainName) //btcutil.AppDataDir(BitcoinChainName, false)
+	defaultBitcoindDir = btcutil.AppDataDir(BitcoinChainName, false)
 
 	defaultTorSOCKS   = net.JoinHostPort("localhost", strconv.Itoa(defaultTorSOCKSPort))
 	defaultTorDNS     = net.JoinHostPort(defaultTorDNSHost, strconv.Itoa(defaultTorDNSPort))
@@ -381,7 +380,7 @@ type Config struct {
 
 	Hodl *hodl.Config `group:"hodl" namespace:"hodl"`
 
-	NoNetBootstrap bool `long:"nobootstrap" description:"If true, then automatic network bootstrapping will not be attempted."`
+	NoNetBootstrap bool `long:"258" description:"If true, then automatic network bootstrapping will not be attempted."`
 
 	NoSeedBackup             bool   `long:"noseedbackup" description:"If true, NO SEED WILL BE EXPOSED -- EVER, AND THE WALLET WILL BE ENCRYPTED USING THE DEFAULT PASSPHRASE. THIS FLAG IS ONLY FOR TESTING AND SHOULD NEVER BE USED ON MAINNET."`
 	WalletUnlockPasswordFile string `long:"wallet-unlock-password-file" description:"The full path to a file (or pipe/device) that contains the password for unlocking the wallet; if set, no unlocking through RPC is possible and lnd will exit if no wallet exists or the password is incorrect; if wallet-unlock-allow-create is also set then lnd will ignore this flag if no wallet exists and allow a wallet to be created through RPC."`
@@ -545,28 +544,6 @@ type GRPCConfig struct {
 	// useful to keep the underlying HTTP/2 connection open for future
 	// requests.
 	ClientAllowPingWithoutStream bool `long:"client-allow-ping-without-stream" description:"If true, the server allows keepalive pings from the client even when there are no active gRPC streams. This might be useful to keep the underlying HTTP/2 connection open for future requests."`
-}
-
-func GetBaseDir() string {
-	execPath, err := os.Executable()
-	if err != nil {
-		return "./."
-	}
-	execPath = filepath.Dir(execPath)
-	fmt.Printf("%s\n", execPath)
-	if strings.Contains(execPath, "/cmd/lnd") {
-		execPath, _ = strings.CutSuffix(execPath, "/cmd/lnd")
-	}
-	return execPath
-	//return "/data1/github/lnd"
-}
-
-func GetDefaultDir(app string) string {
-	return GetBaseDir() + "/." + app
-}
-
-func GetLndDir() string {
-	return GetDefaultDir("lnd")
 }
 
 // DefaultConfig returns all default values for the Config struct.
@@ -1288,7 +1265,7 @@ func ValidateConfig(cfg Config, interceptor signal.Interceptor, fileParser,
 	// The target network must be provided, otherwise, we won't
 	// know how to initialize the daemon.
 	if numNets == 0 {
-		str := "either --bitcoin.mainnet, or bitcoin.testnet," +
+		str := "either --bitcoin.mainnet, or bitcoin.testnet,bitcoin.testnet4," +
 			"bitcoin.simnet, bitcoin.regtest or bitcoin.signet " +
 			"must be specified"
 
@@ -1806,15 +1783,13 @@ func CleanAndExpandPath(path string) string {
 
 	// Expand initial ~ to OS specific home directory.
 	if strings.HasPrefix(path, "~") {
-		// var homeDir string
-		// u, err := user.Current()
-		// if err == nil {
-		// 	homeDir = u.HomeDir
-		// } else {
-		// 	homeDir = os.Getenv("HOME")
-		// }
-
-		homeDir := GetBaseDir()
+		var homeDir string
+		u, err := user.Current()
+		if err == nil {
+			homeDir = u.HomeDir
+		} else {
+			homeDir = os.Getenv("HOME")
+		}
 
 		path = strings.Replace(path, "~", homeDir, 1)
 	}

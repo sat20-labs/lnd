@@ -11,10 +11,10 @@
       "mode": "auto",
       "program": "${workspaceFolder}/cmd/lnd",
       "args": [],
-      "buildFlags": "-tags=autopilotrpc,chainrpc,dev,invoicesrpc,neutrinorpc,peersrpc,signrpc,walletrpc,watchtowerrpc",
-      "env": {
-        "GO111MODULE": "on"
-      },
+      // "buildFlags": "-tags=autopilotrpc,chainrpc,dev,invoicesrpc,neutrinorpc,peersrpc,signrpc,walletrpc,watchtowerrpc",
+      // "env": {
+      //   "GO111MODULE": "on"
+      // },
       "console": "integratedTerminal",
       "showLog": true
     },
@@ -27,10 +27,10 @@
       "args": [
         "create"
       ],
-      "buildFlags": "-tags=autopilotrpc,chainrpc,dev,invoicesrpc,neutrinorpc,peersrpc,signrpc,walletrpc,watchtowerrpc",
-      "env": {
-        "GO111MODULE": "on"
-      },
+      // "buildFlags": "-tags=autopilotrpc,chainrpc,dev,invoicesrpc,neutrinorpc,peersrpc,signrpc,walletrpc,watchtowerrpc",
+      // "env": {
+      //   "GO111MODULE": "on"
+      // },
       "console": "integratedTerminal",
       "showLog": true
     },
