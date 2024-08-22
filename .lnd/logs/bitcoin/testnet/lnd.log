@@ -1,0 +1,250 @@
+2024-08-22 14:12:18.992 [INF] LTND: Version: 0.18.3-beta.rc1 commit=, build=development, logging=default, debuglevel=debug,PEER=info
+2024-08-22 14:12:18.992 [INF] LTND: Active chain: Bitcoin (network=testnet4)
+2024-08-22 14:12:18.992 [DBG] ARPC: Autopilot RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] NTFR: ChainNotifier RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] NTFR: ChainKit RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] IRPC: Invoices RPC server successfully registered with root gRPC server
+2024-08-22 14:12:18.992 [DBG] NRPC: Neutrino RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] SGNR: Signer RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] DRPC: DEV RPC server successfully register with root the gRPC server
+2024-08-22 14:12:18.992 [DBG] PRPC: Peers RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] RRPC: Router RPC server successfully register with root gRPC server
+2024-08-22 14:12:18.992 [DBG] VRPC: Versioner RPC server successfully registered with root gRPC server
+2024-08-22 14:12:18.992 [DBG] WLKT: WalletKit RPC server successfully registered with root gRPC server
+2024-08-22 14:12:18.992 [INF] RPCS: RPC server listening on 127.0.0.1:10009
+2024-08-22 14:12:18.994 [DBG] ARPC: Autopilot REST server successfully registered with root REST server
+2024-08-22 14:12:18.994 [DBG] NTFR: ChainNotifier REST server successfully registered with root REST server
+2024-08-22 14:12:18.995 [DBG] NTFR: ChainKit REST server successfully registered with root REST server
+2024-08-22 14:12:18.995 [DBG] IRPC: Invoices REST server successfully registered with root REST server
+2024-08-22 14:12:18.995 [DBG] NRPC: Neutrino REST server successfully registered with root REST server
+2024-08-22 14:12:18.999 [DBG] SGNR: Signer REST server successfully registered with root REST server
+2024-08-22 14:12:19.000 [DBG] DRPC: DEV REST server successfully registered with the root REST server
+2024-08-22 14:12:19.000 [DBG] PRPC: Peers REST server successfully registered with root REST server
+2024-08-22 14:12:19.001 [DBG] RRPC: Router REST server successfully registered with root REST server
+2024-08-22 14:12:19.005 [DBG] VRPC: Versioner REST server successfully registered with root REST server
+2024-08-22 14:12:19.005 [DBG] WLKT: WalletKit REST server successfully registered with root REST server
+2024-08-22 14:12:19.007 [INF] RPCS: gRPC proxy started at 0.0.0.0:9080
+2024-08-22 14:12:19.007 [INF] LTND: Opening the main database, this might take a few minutes...
+2024-08-22 14:12:19.007 [INF] LTND: Opening bbolt database, sync_freelist=false, auto_compact=false
+2024-08-22 14:12:19.020 [INF] LTND: Creating local graph and channel state DB instances
+2024-08-22 14:12:19.032 [DBG] CHDB: Populating in-memory channel graph, this might take a while...
+2024-08-22 14:12:19.032 [DBG] CHDB: Finished populating in-memory channel graph (took 219.765µs, num_node_features=0, num_nodes=0, num_channels=0)
+2024-08-22 14:12:19.033 [INF] CHDB: Checking for schema update: latest_version=31, db_version=31
+2024-08-22 14:12:19.033 [INF] CHDB: Checking for optional update: prune_revocation_log=false, db_version=empty
+2024-08-22 14:12:19.033 [INF] LTND: Database(s) now open (time_to_open=26.124824ms)!
+2024-08-22 14:12:19.033 [INF] LTND: We're not running within systemd or the service type is not 'notify'
+2024-08-22 14:12:19.033 [INF] LTND: Waiting for wallet encryption password. Use `lncli create` to create a wallet, `lncli unlock` to unlock an existing wallet, or `lncli changepassword` to change the password of an existing wallet and unlock it.
+2024-08-22 14:12:44.503 [DBG] RPCS: [/lnrpc.WalletUnlocker/GenSeed] requested
+2024-08-22 14:12:44.699 [DBG] RPCS: [/lnrpc.WalletUnlocker/InitWallet] requested
+2024-08-22 14:12:46.956 [INF] LNWL: Opened wallet
+2024-08-22 14:12:47.049 [INF] LNWL: Started listening for bitcoind block notifications via ZMQ on 192.168.10.102:58332
+2024-08-22 14:12:47.049 [INF] LNWL: Started listening for bitcoind transaction notifications via ZMQ on 192.168.10.102:58333
+2024-08-22 14:12:47.049 [INF] CHRE: Initializing bitcoind backed fee estimator in CONSERVATIVE mode
+2024-08-22 14:12:47.782 [INF] LNWL: The wallet has been unlocked without a time limit
+2024-08-22 14:12:47.827 [INF] CHRE: LightningWallet opened
+2024-08-22 14:12:47.827 [DBG] LNWL: Waiting for chain backend to sync to tip
+2024-08-22 14:12:47.841 [INF] HSWC: Cleaning circuits from disk for closed channels
+2024-08-22 14:12:47.841 [DBG] HSWC: Found 0 closed channels
+2024-08-22 14:12:47.841 [INF] HSWC: Finished cleaning: no closed channels found, no actions taken.
+2024-08-22 14:12:47.841 [INF] HSWC: Restoring in-memory circuit state from disk
+2024-08-22 14:12:47.843 [INF] HSWC: Payment circuits loaded: num_pending=0, num_open=0
+2024-08-22 14:12:47.853 [DBG] CRTR: Instantiating mission control with config: maximum history: 1000, minimum failure relax interval: 1m0s, estimator type: apriori, penalty halflife time: 1h0m0s, apriori hop probability: 0.6, apriori weight: 0.5, previous success probability: 0.95, capacity fraction: 0.9999
+2024-08-22 14:12:47.857 [INF] CRTR: Loaded 0 mission control entries
+2024-08-22 14:12:47.857 [DBG] CRTR: Mission control state reconstruction started
+2024-08-22 14:12:47.857 [DBG] CRTR: Mission control state reconstruction finished: n=0, time=10.964µs
+2024-08-22 14:12:47.857 [DBG] SRVR: Instantiating payment session source with config: AttemptCost=100 + 0.1%, MinRouteProbability=0.01
+2024-08-22 14:12:47.861 [INF] SWPR: Migrating UTXO nursery finalized TXIDs
+2024-08-22 14:12:47.865 [INF] LTND: Channel backup proxy channel notifier starting
+2024-08-22 14:12:47.865 [INF] ATPL: Instantiating autopilot with active=false, max_channels=5, allocation=0.600000, min_chan_size=20000, max_chan_size=16777215, private=false, min_confs=1, conf_target=3
+2024-08-22 14:12:47.865 [DBG] LTND: Populating dependencies for sub RPC server: SignRPC
+2024-08-22 14:12:47.865 [DBG] LTND: Populating dependencies for sub RPC server: WalletKitRPC
+2024-08-22 14:12:47.865 [DBG] LTND: Populating dependencies for sub RPC server: AutopilotRPC
+2024-08-22 14:12:47.865 [DBG] LTND: Populating dependencies for sub RPC server: ChainRPC
+2024-08-22 14:12:47.865 [DBG] LTND: Populating dependencies for sub RPC server: InvoicesRPC
+2024-08-22 14:12:47.865 [DBG] LTND: Populating dependencies for sub RPC server: PeersRPC
+2024-08-22 14:12:47.866 [DBG] LTND: Populating dependencies for sub RPC server: NeutrinoKitRPC
+2024-08-22 14:12:47.866 [DBG] LTND: Populating dependencies for sub RPC server: RouterRPC
+2024-08-22 14:12:47.866 [DBG] LTND: Populating dependencies for sub RPC server: WatchtowerRPC
+2024-08-22 14:12:47.866 [DBG] LTND: Populating dependencies for sub RPC server: WatchtowerClientRPC
+2024-08-22 14:12:47.866 [DBG] LTND: Populating dependencies for sub RPC server: DevRPC
+2024-08-22 14:12:47.866 [INF] NTFR: Baking macaroons for ChainNotifier RPC Server at: /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/chainnotifier.macaroon
+2024-08-22 14:12:47.867 [INF] IRPC: Baking macaroons for invoices RPC Server at: /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/invoices.macaroon
+2024-08-22 14:12:47.869 [INF] SGNR: Making macaroons for Signer RPC Server at: /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/signer.macaroon
+2024-08-22 14:12:47.871 [INF] RRPC: Making macaroons for Router RPC Server at: /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/router.macaroon
+2024-08-22 14:12:47.873 [INF] WLKT: Baking macaroons for WalletKit RPC Server at: /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/walletkit.macaroon
+2024-08-22 14:12:47.875 [DBG] RPCS: Starting sub RPC server: AutopilotRPC
+2024-08-22 14:12:47.875 [DBG] RPCS: Starting sub RPC server: ChainRPC
+2024-08-22 14:12:47.875 [DBG] RPCS: Starting sub RPC server: InvoicesRPC
+2024-08-22 14:12:47.875 [DBG] RPCS: Starting sub RPC server: NeutrinoKitRPC
+2024-08-22 14:12:47.875 [DBG] RPCS: Starting sub RPC server: SignRPC
+2024-08-22 14:12:47.875 [DBG] RPCS: Starting sub RPC server: DevRPC
+2024-08-22 14:12:47.876 [DBG] RPCS: Starting sub RPC server: PeersRPC
+2024-08-22 14:12:47.876 [DBG] RPCS: Starting sub RPC server: RouterRPC
+2024-08-22 14:12:47.876 [DBG] RPCS: Starting sub RPC server: VersionRPC
+2024-08-22 14:12:47.876 [DBG] RPCS: Starting sub RPC server: WalletKitRPC
+2024-08-22 14:12:47.876 [DBG] RPCS: Starting sub RPC server: WatchtowerRPC
+2024-08-22 14:12:47.876 [DBG] RPCS: Starting sub RPC server: WatchtowerClientRPC
+2024-08-22 14:12:47.876 [INF] LTND: We're not running within systemd or the service type is not 'notify'
+2024-08-22 14:12:47.878 [INF] LTND: Waiting for chain backend to finish sync, start_height=40694
+2024-08-22 14:12:47.880 [DBG] LTND: Syncing to block timestamp: 2024-08-22 13:59:31 +0800 CST, is synced=false
+2024-08-22 14:12:48.831 [DBG] LNWL: Chain backend synced to tip!
+2024-08-22 14:12:48.832 [DBG] LNWL: Locating suitable block for birthday 2024-08-20 02:15:05 +0800 CST between blocks 0-40694
+2024-08-22 14:12:48.835 [DBG] LNWL: Checking candidate block: height=20347, hash=0000000000000cbe45c25bae60783210f4048a87a336e9317e418ab3abe91ddf, timestamp=2024-05-11 07:23:24 +0800 CST
+2024-08-22 14:12:48.837 [DBG] LNWL: Checking candidate block: height=30520, hash=00000000000001b8bc95d060ce98814575be47ce4a29eb60469eb6387558bd22, timestamp=2024-06-17 12:26:09 +0800 CST
+2024-08-22 14:12:48.839 [DBG] LNWL: Checking candidate block: height=35607, hash=000000000000000db8fd5e90e5528c647cd7f7553738b35ae1b321cbbbd0914f, timestamp=2024-07-20 16:57:43 +0800 CST
+2024-08-22 14:12:48.840 [DBG] LNWL: Checking candidate block: height=38150, hash=00000000000000221cc20df589012602b291951c4e3dc046729d945c876c8d50, timestamp=2024-08-06 05:47:36 +0800 CST
+2024-08-22 14:12:48.842 [DBG] LNWL: Checking candidate block: height=39422, hash=000000000000001b101160a3e9b9788f7b0eb11ad5dd1148c6433784e448992b, timestamp=2024-08-14 00:09:06 +0800 CST
+2024-08-22 14:12:48.844 [DBG] LNWL: Checking candidate block: height=40058, hash=0000000000000033544953348fb377078f95f0f3e4d02153f9b46a786a171e82, timestamp=2024-08-18 08:06:20 +0800 CST
+2024-08-22 14:12:48.846 [DBG] LNWL: Checking candidate block: height=40376, hash=00000000de73dd84b4ba9fa587091288b2fb5eb9aad333f34e8c6b8711630d65, timestamp=2024-08-20 12:20:32 +0800 CST
+2024-08-22 14:12:48.848 [DBG] LNWL: Checking candidate block: height=40217, hash=00000000000000230ff30f504acd56e56a4527f8b910a84d314fee784dfc397c, timestamp=2024-08-19 03:22:06 +0800 CST
+2024-08-22 14:12:48.849 [DBG] LNWL: Checking candidate block: height=40296, hash=00000000403f6b07d11c93e63c1b93f282b40bd3bc18c15a86e18854da256644, timestamp=2024-08-19 15:33:10 +0800 CST
+2024-08-22 14:12:48.851 [DBG] LNWL: Checking candidate block: height=40336, hash=000000005b6782237afbb8c99ca6c42847f454340c5c9b05442888465462f2f8, timestamp=2024-08-20 01:50:10 +0800 CST
+2024-08-22 14:12:48.851 [DBG] LNWL: Found birthday block: height=40336, hash=000000005b6782237afbb8c99ca6c42847f454340c5c9b05442888465462f2f8, timestamp=2024-08-20 01:50:10 +0800 CST
+2024-08-22 14:12:48.872 [INF] LNWL: Started rescan from block 000000005b6782237afbb8c99ca6c42847f454340c5c9b05442888465462f2f8 (height 40336) for 0 addresses
+2024-08-22 14:12:48.882 [INF] LNWL: Catching up block hashes to height 40338, this might take a while
+2024-08-22 14:12:48.885 [DBG] LTND: Syncing to block timestamp: 2024-08-22 13:59:31 +0800 CST, is synced=false
+2024-08-22 14:12:48.890 [INF] LNWL: Done catching up block hashes
+2024-08-22 14:12:48.891 [INF] LNWL: Rescanned through block 00000000c229bfbbe61e0a2fedd0a29318093f52c6b8f49fd73ed9337e61c709 (height 40338)
+2024-08-22 14:12:49.887 [DBG] LTND: Syncing to block timestamp: 2024-08-22 13:59:31 +0800 CST, is synced=false
+2024-08-22 14:12:50.322 [INF] LNWL: Catching up block hashes to height 40694, this might take a while
+2024-08-22 14:12:50.324 [INF] LNWL: Done catching up block hashes
+2024-08-22 14:12:50.324 [INF] LNWL: Finished rescan for 0 addresses (synced to block 0000000000000007a57679c6aa5383faa0a526188c30203a9b49794dcb252f76, height 40694)
+2024-08-22 14:12:50.890 [DBG] LTND: Syncing to block timestamp: 2024-08-22 13:59:31 +0800 CST, is synced=true
+2024-08-22 14:12:50.892 [INF] LTND: Chain backend is fully synced (end_height=40694)!
+2024-08-22 14:12:50.892 [WRN] HLCK: check: disk space configured with 0 attempts, skipping it
+2024-08-22 14:12:50.892 [WRN] HLCK: check: tls configured with 0 attempts, skipping it
+2024-08-22 14:12:50.892 [INF] LNWL: SigPool starting
+2024-08-22 14:12:50.892 [DBG] HLCK: Monitoring: chain backend
+2024-08-22 14:12:50.899 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.899 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.899 [INF] BTCN: Broadcaster now active
+2024-08-22 14:12:50.899 [INF] CHNF: ChannelNotifier starting
+2024-08-22 14:12:50.899 [INF] PRNF: PeerNotifier starting
+2024-08-22 14:12:50.899 [INF] HSWC: HtlcNotifier starting
+2024-08-22 14:12:50.899 [INF] SWPR: TxPublisher starting...
+2024-08-22 14:12:50.899 [DBG] SWPR: TxPublisher started
+2024-08-22 14:12:50.899 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.899 [INF] SWPR: Sweeper starting
+2024-08-22 14:12:50.899 [DBG] SWPR: TxPublisher received new block: 40694
+2024-08-22 14:12:50.899 [INF] UTXN: UTXO nursery starting
+2024-08-22 14:12:50.899 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.900 [INF] BRAR: Breach arbiter starting
+2024-08-22 14:12:50.900 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.900 [DBG] BRAR: Found 0 closing channels, 0 retribution records
+2024-08-22 14:12:50.900 [INF] FNDG: Funding manager starting
+2024-08-22 14:12:50.900 [INF] HSWC: HTLC Switch starting
+2024-08-22 14:12:50.900 [INF] BRAR: Starting contract observer, watching for breaches.
+2024-08-22 14:12:50.902 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.902 [INF] HSWC: InterceptableSwitch starting...
+2024-08-22 14:12:50.902 [DBG] HSWC: InterceptableSwitch started
+2024-08-22 14:12:50.902 [INF] CNCT: ChainArbitrator starting with config: budget=[tolocal=0 BTC tolocalratio=0.5 anchorcpfp=0 BTC anchorcpfpratio=0.5 deadlinehtlc=0 BTC deadlinehtlcratio=0.5 nodeadlinehtlc=0 BTC nodeadlinehtlcratio=0.5]
+2024-08-22 14:12:50.902 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.903 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.903 [DBG] HSWC: InterceptableSwitch running: height=40694, requireInterceptor=false
+2024-08-22 14:12:50.903 [INF] GRPH: Builder starting
+2024-08-22 14:12:50.914 [DBG] CHDB: Pruned graph, cache now has num_node_features=0, num_nodes=0, num_channels=0
+2024-08-22 14:12:50.914 [INF] CRTR: FilteredChainView starting
+2024-08-22 14:12:50.920 [INF] GRPH: Filtering chain using 0 channels active
+2024-08-22 14:12:50.921 [INF] GRPH: Prune tip for Channel Graph: height=40694, hash=0000000000000007a57679c6aa5383faa0a526188c30203a9b49794dcb252f76
+2024-08-22 14:12:50.924 [DBG] GRPH: Builder started
+2024-08-22 14:12:50.924 [INF] CRTR: Channel Router starting
+2024-08-22 14:12:50.924 [DBG] CRTR: Cleaning network result store.
+2024-08-22 14:12:50.928 [INF] DISC: Authenticated Gossiper starting
+2024-08-22 14:12:50.928 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.930 [INF] INVC: InvoiceRegistry starting...
+2024-08-22 14:12:50.930 [DBG] DISC: New block: height=40694, hash=0000000000000007a57679c6aa5383faa0a526188c30203a9b49794dcb252f76
+2024-08-22 14:12:50.930 [DBG] INVC: Adding 0 pending invoices to the expiry watcher
+2024-08-22 14:12:50.930 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.930 [DBG] INVC: InvoiceRegistry started
+2024-08-22 14:12:50.930 [INF] HSWC: Onion processor starting
+2024-08-22 14:12:50.936 [INF] NANN: Channel Status Manager starting
+2024-08-22 14:12:50.936 [INF] NTFN: New block epoch subscription
+2024-08-22 14:12:50.936 [INF] CHFT: ChannelEventStore starting...
+2024-08-22 14:12:50.936 [INF] CHFT: Adding 0 channels to event store
+2024-08-22 14:12:50.936 [DBG] CHFT: ChannelEventStore started
+2024-08-22 14:12:50.936 [INF] CHBU: chanbackup.SubSwapper starting
+2024-08-22 14:12:50.951 [INF] CHBU: Updating backup file at /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/channel.backup
+2024-08-22 14:12:50.953 [INF] CHBU: Swapping old multi backup file from /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/temp-dont-use.backup to /data1/github/lnd-testnet/.lnd/data/chain/bitcoin/testnet/channel.backup
+2024-08-22 14:12:50.953 [DBG] CHBU: SubSwapper's backupUpdater is active!
+2024-08-22 14:12:50.953 [INF] CMGR: Server listening on [::]:9735
+2024-08-22 14:12:50.953 [DBG] GRPH: New graph topology client subscription, client 1
+2024-08-22 14:12:50.953 [DBG] SRVR: Establishing 0 persistent connections on start
+2024-08-22 14:12:50.953 [INF] SRVR: Auto peer bootstrapping is disabled
+2024-08-22 14:13:08.659 [DBG] RPCS: [/lnrpc.Lightning/NewAddress] requested
+2024-08-22 14:13:08.674 [DBG] RPCS: [newaddress] account=default type=TAPROOT_PUBKEY addr=tb1p6udgu2df4ch3t7ufkltlhxrqerwwdq8exun749ddc7q7l03q246q9runp9
+2024-08-22 14:13:36.563 [DBG] LNWL: Filtering block 40695 (000000002e6bfa5cb13a9191979c78b7b07c0c7dec633e40f76cd288a52aa5a0) with 19 transactions
+2024-08-22 14:13:36.563 [INF] GRPH: Pruning channel graph using block 000000002e6bfa5cb13a9191979c78b7b07c0c7dec633e40f76cd288a52aa5a0 (height=40695)
+2024-08-22 14:13:36.568 [DBG] NTFN: Filtering 19 txns for 0 spend requests at height 40695
+2024-08-22 14:13:36.569 [INF] NTFN: New block: height=40695, sha=000000002e6bfa5cb13a9191979c78b7b07c0c7dec633e40f76cd288a52aa5a0
+2024-08-22 14:13:36.569 [DBG] DISC: New block: height=40695, hash=000000002e6bfa5cb13a9191979c78b7b07c0c7dec633e40f76cd288a52aa5a0
+2024-08-22 14:13:36.569 [DBG] SWPR: TxPublisher received new block: 40695
+2024-08-22 14:13:36.569 [DBG] SWPR: Received new block: height=40695, attempt sweeping 0 inputs
+2024-08-22 14:13:36.569 [INF] UTXN: Attempting to graduate height=40695: num_kids=0, num_babies=0
+2024-08-22 14:13:36.575 [DBG] CHDB: Pruned graph, cache now has num_node_features=0, num_nodes=0, num_channels=0
+2024-08-22 14:13:36.575 [INF] GRPH: Block 000000002e6bfa5cb13a9191979c78b7b07c0c7dec633e40f76cd288a52aa5a0 (height=40695) closed 0 channels
+2024-08-22 14:13:50.902 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:14:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:15:50.898 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:16:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:17:47.067 [DBG] LNWL: filterManager updated moving median to: 1000 sat/kvb
+2024-08-22 14:17:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:18:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:19:50.902 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:20:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:21:50.903 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:22:47.067 [DBG] LNWL: filterManager updated moving median to: 1000 sat/kvb
+2024-08-22 14:22:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:23:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:24:50.898 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:25:17.892 [DBG] LNWL: Filtering block 40696 (000000001ffd2f7b9e636688913393d1a6b1408ce77ba55ede2b85969998a460) with 7 transactions
+2024-08-22 14:25:17.893 [INF] GRPH: Pruning channel graph using block 000000001ffd2f7b9e636688913393d1a6b1408ce77ba55ede2b85969998a460 (height=40696)
+2024-08-22 14:25:17.896 [DBG] NTFN: Filtering 7 txns for 0 spend requests at height 40696
+2024-08-22 14:25:17.896 [INF] NTFN: New block: height=40696, sha=000000001ffd2f7b9e636688913393d1a6b1408ce77ba55ede2b85969998a460
+2024-08-22 14:25:17.896 [DBG] SWPR: Received new block: height=40696, attempt sweeping 0 inputs
+2024-08-22 14:25:17.896 [DBG] SWPR: TxPublisher received new block: 40696
+2024-08-22 14:25:17.896 [INF] UTXN: Attempting to graduate height=40696: num_kids=0, num_babies=0
+2024-08-22 14:25:17.896 [DBG] DISC: New block: height=40696, hash=000000001ffd2f7b9e636688913393d1a6b1408ce77ba55ede2b85969998a460
+2024-08-22 14:25:17.897 [DBG] LNWL: Using minimum fee rate of 253 sat/kw
+2024-08-22 14:25:17.905 [DBG] CHDB: Pruned graph, cache now has num_node_features=0, num_nodes=0, num_channels=0
+2024-08-22 14:25:17.905 [INF] GRPH: Block 000000001ffd2f7b9e636688913393d1a6b1408ce77ba55ede2b85969998a460 (height=40696) closed 0 channels
+2024-08-22 14:25:50.916 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:26:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:27:47.067 [DBG] LNWL: filterManager updated moving median to: 1000 sat/kvb
+2024-08-22 14:27:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:28:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:29:50.903 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:30:50.902 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:31:50.902 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:32:47.070 [DBG] LNWL: filterManager updated moving median to: 1000 sat/kvb
+2024-08-22 14:32:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:32:50.930 [DBG] DISC: No eligible active syncer to rotate
+2024-08-22 14:33:50.901 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:34:35.416 [DBG] LNWL: Filtering block 40697 (000000000000003ff010845b8013c94bd79ec796a7beb11dd691c67853fa7a83) with 7 transactions
+2024-08-22 14:34:35.416 [INF] GRPH: Pruning channel graph using block 000000000000003ff010845b8013c94bd79ec796a7beb11dd691c67853fa7a83 (height=40697)
+2024-08-22 14:34:35.421 [DBG] NTFN: Filtering 7 txns for 0 spend requests at height 40697
+2024-08-22 14:34:35.421 [INF] NTFN: New block: height=40697, sha=000000000000003ff010845b8013c94bd79ec796a7beb11dd691c67853fa7a83
+2024-08-22 14:34:35.421 [DBG] SWPR: TxPublisher received new block: 40697
+2024-08-22 14:34:35.421 [DBG] SWPR: Received new block: height=40697, attempt sweeping 0 inputs
+2024-08-22 14:34:35.421 [INF] UTXN: Attempting to graduate height=40697: num_kids=0, num_babies=0
+2024-08-22 14:34:35.421 [DBG] DISC: New block: height=40697, hash=000000000000003ff010845b8013c94bd79ec796a7beb11dd691c67853fa7a83
+2024-08-22 14:34:35.428 [DBG] CHDB: Pruned graph, cache now has num_node_features=0, num_nodes=0, num_channels=0
+2024-08-22 14:34:35.428 [INF] GRPH: Block 000000000000003ff010845b8013c94bd79ec796a7beb11dd691c67853fa7a83 (height=40697) closed 0 channels
+2024-08-22 14:34:50.902 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:35:50.898 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:36:43.625 [DBG] LNWL: Filtering block 40698 (000000007c96baf3cab5135a7c69053bb3ebc9b0f943131776706f09a4782066) with 4 transactions
+2024-08-22 14:36:43.625 [INF] GRPH: Pruning channel graph using block 000000007c96baf3cab5135a7c69053bb3ebc9b0f943131776706f09a4782066 (height=40698)
+2024-08-22 14:36:43.628 [DBG] NTFN: Filtering 4 txns for 0 spend requests at height 40698
+2024-08-22 14:36:43.628 [INF] NTFN: New block: height=40698, sha=000000007c96baf3cab5135a7c69053bb3ebc9b0f943131776706f09a4782066
+2024-08-22 14:36:43.628 [DBG] SWPR: Received new block: height=40698, attempt sweeping 0 inputs
+2024-08-22 14:36:43.629 [DBG] SWPR: TxPublisher received new block: 40698
+2024-08-22 14:36:43.629 [DBG] DISC: New block: height=40698, hash=000000007c96baf3cab5135a7c69053bb3ebc9b0f943131776706f09a4782066
+2024-08-22 14:36:43.629 [INF] UTXN: Attempting to graduate height=40698: num_kids=0, num_babies=0
+2024-08-22 14:36:43.629 [DBG] LNWL: Using minimum fee rate of 253 sat/kw
+2024-08-22 14:36:43.631 [DBG] CHDB: Pruned graph, cache now has num_node_features=0, num_nodes=0, num_channels=0
+2024-08-22 14:36:43.631 [INF] GRPH: Block 000000007c96baf3cab5135a7c69053bb3ebc9b0f943131776706f09a4782066 (height=40698) closed 0 channels
+2024-08-22 14:36:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:37:47.067 [DBG] LNWL: filterManager updated moving median to: 1000 sat/kvb
+2024-08-22 14:37:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:38:50.898 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:39:50.902 [DBG] HLCK: Health check: chain backend invoking success callback
+2024-08-22 14:40:50.900 [DBG] HLCK: Health check: chain backend invoking success callback
