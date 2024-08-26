@@ -382,7 +382,7 @@ func main() {
 			Name: "network, n",
 			Usage: "The network lnd is running on, e.g. mainnet, " +
 				"testnet, etc.",
-			Value:  "mainnet",
+			Value:  "testnet",
 			EnvVar: envVarNetwork,
 		},
 		cli.BoolFlag{
